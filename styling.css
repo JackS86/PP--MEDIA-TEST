@@ -324,8 +324,8 @@ a.active {
 
 @media (min-width: 2560px) {
     .logo {
-        width: 10%;
-        margin-top: 5em;
+        width: 12%;
+        margin-top: 4em;
         margin-left: 8.5em;
     }
 }
@@ -357,7 +357,8 @@ a.active {
         left: 25px;
         width: 40%;
     }
-a {
+
+    a {
         font-size: 1.4rem;
     }
 }
@@ -441,6 +442,7 @@ a {
         font-size: 2.5rem;
     }
 }
+
 /* ////////////////////// */
 /* MEDIA QUERIES END*/
 
@@ -539,10 +541,11 @@ a {
         position: absolute;
         top: 9em;
         padding: 1.2em;
-        width: 290px;
+        width: 390px;
         margin-right: 0.4em;
     }
 }
+
 /* ////////////////////// */
 /* MEDIA QUERIES END*/
 
@@ -578,23 +581,23 @@ a {
         width: 70%;
         position: absolute;
         top: 21em;
-        left: 15.5em;
+        left: 18em;
         transform: translate(-50%, -50%);
     }
 
     .title-main {
         width: 70%;
         position: absolute;
-        top: 25em;
-        left: 15.5em;
+        top: 25.5em;
+        left: 18em;
         transform: translate(-50%, -50%);
     }
 
     .title-two {
         width: 70%;
         position: absolute;
-        top: 31em;
-        left: 15.5em;
+        top: 32.5em;
+        left: 18em;
         transform: translate(-50%, -50%);
     }
 }
@@ -602,26 +605,26 @@ a {
 
 @media (min-width: 576px) {
     .title-one {
-        width: 70%;
+        width: 60%;
         position: absolute;
         top: 21em;
-        left: 24.5em;
+        left: 29em;
         transform: translate(-50%, -50%);
     }
 
     .title-main {
-        width: 70%;
+        width: 60%;
         position: absolute;
-        top: 25em;
-        left: 15.5em;
+        top: 27.5em;
+        left: 29em;
         transform: translate(-50%, -50%);
     }
 
     .title-two {
-        width: 70%;
+        width: 60%;
         position: absolute;
-        top: 31em;
-        left: 15.5em;
+        top: 37.5em;
+        left: 29em;
         transform: translate(-50%, -50%);
     }
 }
@@ -630,104 +633,137 @@ a {
     .title-one {
         width: 60%;
         position: absolute;
-        top: 43%;
-        left: 50%;
+        top: 21em;
+        left: 39em;
+        transform: translate(-50%, -50%);
     }
 
     .title-main {
         width: 60%;
         position: absolute;
-        top: 57%;
-        left: 50%;
+        top: 29.5em;
+        left: 39em;
         transform: translate(-50%, -50%);
     }
 
     .title-two {
         width: 60%;
         position: absolute;
-        top: 79%;
-        left: 50%;
+        top: 42.5em;
+        left: 39em;
         transform: translate(-50%, -50%);
     }
 }
 
 @media (min-width: 992px) {
     .title-one {
-        width: 50%;
+        width: 60%;
         position: absolute;
-        top: 40%;
-        left: 50%;
+        top: 21em;
+        left: 50em;
+        transform: translate(-50%, -50%);
     }
 
     .title-main {
-        width: 50%;
+        width: 60%;
         position: absolute;
-        top: 55%;
-        left: 50%;
+        top: 31.5em;
+        left: 49.5em;
         transform: translate(-50%, -50%);
     }
 
     .title-two {
-        width: 50%;
+        width: 60%;
         position: absolute;
-        top: 78%;
-        left: 50%;
+        top: 47.5em;
+        left: 50em;
         transform: translate(-50%, -50%);
     }
 }
 
 @media (min-width: 1200px) {
     .title-one {
-        width: 40%;
+        width: 50%;
         position: absolute;
-        top: 41%;
-        left: 50%;
+        top: 21em;
+        left: 60em;
+        transform: translate(-50%, -50%);
     }
 
     .title-main {
-        width: 40%;
+        width: 60%;
         position: absolute;
-        top: 59%;
-        left: 50%;
+        top: 33.5em;
+        left: 65.5em;
         transform: translate(-50%, -50%);
     }
 
     .title-two {
-        width: 40%;
+        width: 60%;
         position: absolute;
-        top: 88%;
-        left: 50%;
+        top: 52.5em;
+        left: 65.5em;
         transform: translate(-50%, -50%);
     }
 }
 
 @media (min-width: 1600px) {
     .title-one {
-        width: 40%;
+        width: 50%;
         position: absolute;
-        top: 35%;
-        left: 50%;
+        top: 31em;
+        left: 80em;
+        transform: translate(-50%, -50%);
     }
 
     .title-main {
-        width: 40%;
+        width: 50%;
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 45.5em;
+        left: 79.5em;
         transform: translate(-50%, -50%);
     }
 
     .title-two {
-        width: 40%;
+        width: 50%;
         position: absolute;
-        top: 72%;
-        left: 50%;
+        top: 68.5em;
+        left: 80em;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 2560px) {
+    .title-one {
+        width: 50%;
+        position: absolute;
+        top: 41em;
+        left: 130em;
+        transform: translate(-50%, -50%);
+    }
+
+    .title-main {
+        width: 50%;
+        position: absolute;
+        top: 65em;
+        left: 129em;
+        transform: translate(-50%, -50%);
+    }
+
+    .title-two {
+        width: 50%;
+        position: absolute;
+        top: 100.5em;
+        left: 129em;
         transform: translate(-50%, -50%);
     }
 }
 
 /* ////////////////////// */
 /* MEDIA QUERIES END*/
+
+/* ////////////////////// */
+/* MEDIA QUERIES START title-one, title-main, title-two */
 
 #experience {
     background-color: rgb(255, 255, 255);
