@@ -1504,7 +1504,7 @@ a.active {
 
 .item:nth-of-type(1):hover {
     background-color: #f698bf;
-    background-image: url("/images/stalówka\ ikona\ hover.png");
+    background-image: url("images/stalówka\ ikona\ hover.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1516,7 +1516,7 @@ a.active {
 }
 
 .item:nth-of-type(1) {
-    background-image: url("/images/stalówka\ ikona.png");
+    background-image: url("images/stalówka\ ikona.png");
     background-size: contain;
     /* object-fit:contain; */
     background-position: center;
@@ -1530,7 +1530,7 @@ a.active {
 
 .item:nth-of-type(2):hover {
     background-color: #f698bf;
-    background-image: url("/images/butelka\ ikona\ hover.png");
+    background-image: url("images/butelka\ ikona\ hover.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1542,7 +1542,7 @@ a.active {
 }
 
 .item:nth-of-type(2) {
-    background-image: url("/images/butelka\ ikona.png");
+    background-image: url("images/butelka\ ikona.png");
     background-size: contain;
     /* object-fit:contain; */
     background-position: center;
@@ -1556,7 +1556,7 @@ a.active {
 
 .item:nth-of-type(3):hover {
     background-color: #f698bf;
-    background-image: url("/images/megafon\ ikona\ hover.png");
+    background-image: url("images/megafon\ ikona\ hover.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1568,7 +1568,7 @@ a.active {
 }
 
 .item:nth-of-type(3) {
-    background-image: url("/images/megafon\ ikona.png");
+    background-image: url("images/megafon\ ikona.png");
     background-size: contain;
     /* object-fit:contain; */
     background-position: center;
@@ -1582,7 +1582,7 @@ a.active {
 
 .item:nth-of-type(4):hover {
     background-color: #f698bf;
-    background-image: url("/images/gadżety\ ikona\ hover.png");
+    background-image: url("images/gadżety\ ikona\ hover.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1594,7 +1594,7 @@ a.active {
 }
 
 .item:nth-of-type(4) {
-    background-image: url("/images/gadżety\ ikona.png");
+    background-image: url("images/gadżety\ ikona.png");
     background-size: contain;
     /* object-fit:contain; */
     background-position: center;
@@ -1608,7 +1608,7 @@ a.active {
 
 .item:nth-of-type(5):hover {
     background-color: #f698bf;
-    background-image: url("/images/prezenty\ ikona\ hover.png");
+    background-image: url("images/prezenty\ ikona\ hover.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1620,7 +1620,7 @@ a.active {
 }
 
 .item:nth-of-type(5) {
-    background-image: url("/images/prezenty\ ikona.png");
+    background-image: url("images/prezenty\ ikona.png");
     background-size: contain;
     /* object-fit:contain; */
     background-position: center;
@@ -1634,7 +1634,7 @@ a.active {
 
 .item:nth-of-type(6):hover {
     background-color: #f698bf;
-    background-image: url("/images/dostawa\ ikona\ hover.png");
+    background-image: url("images/dostawa\ ikona\ hover.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1646,7 +1646,7 @@ a.active {
 }
 
 .item:nth-of-type(6) {
-    background-image: url("/images/dostawa\ ikona.png");
+    background-image: url("images/dostawa\ ikona.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
