@@ -107,7 +107,7 @@ a.active {
     width: 35px;
     height: 30px;
     position: fixed;
-    top: 10px;
+    top: 15px;
     right: 50px;
     cursor: pointer;
     display: flex;
@@ -264,7 +264,7 @@ a.active {
 
 
 .logo {
-    width: 40%;
+    width: 30%;
     margin-top: 1.3em;
     margin-left: 2.5em;
 }
@@ -344,8 +344,8 @@ a.active {
     display: flex;
     justify-content: flex-start;
     position: fixed;
-    top: 0.5em;
-    left: 40px;
+    top: 4em;
+    left: 30px;
     width: 40%;
 }
 
@@ -458,9 +458,9 @@ a.active {
 
 .line-pink {
     display: block;
-    border-bottom: 3px solid var(--clr-primary);
+    border-bottom: 2px solid var(--clr-primary);
     position: absolute;
-    top: 20px;
+    top: 10px;
     padding: 1.2em;
     width: 130px;
     margin-right: 0.4em;
@@ -555,7 +555,7 @@ a.active {
 .title-one {
     width: 70%;
     position: absolute;
-    top: 21em;
+    top: 19em;
     left: 15.5em;
     transform: translate(-50%, -50%);
 }
@@ -563,7 +563,7 @@ a.active {
 .title-main {
     width: 70%;
     position: absolute;
-    top: 25em;
+    top: 23em;
     left: 15.5em;
     transform: translate(-50%, -50%);
 }
@@ -571,7 +571,7 @@ a.active {
 .title-two {
     width: 70%;
     position: absolute;
-    top: 31em;
+    top: 29em;
     left: 15.5em;
     transform: translate(-50%, -50%);
 }
@@ -772,7 +772,7 @@ a.active {
     -moz-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
     box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
     position: relative;
-    bottom: 30px;
+    bottom: 1px;
     scroll-margin-bottom: 0.5em;
 }
 
@@ -817,8 +817,8 @@ a.active {
 .text {
 
     display: block;
-    width: 90%;
-    text-align: justify;
+    width: 66%;
+    text-align: left;
     line-height: 1.5em;
     letter-spacing: -0.5px;
     font-weight: 500;
@@ -1088,7 +1088,7 @@ a.active {
     }
 
     .our {
-        margin-left: 2em;
+        margin-left: 5em;
         margin-top: 1em;
     }
 
@@ -1124,10 +1124,10 @@ a.active {
     .line-decor {
         position: relative;
         bottom: 4em;
-        right: 3em;
+        right: 6em;
         display: block;
         border-bottom: 0.5em solid #de005c;
-        width: 20%;
+        width: 30%;
     }
 
     .text {
@@ -1154,7 +1154,7 @@ a.active {
     }
 
     .our {
-        margin-left: 2em;
+        margin-left: 5em;
         margin-top: 1em;
     }
 
@@ -1162,7 +1162,7 @@ a.active {
         color: #de005c;
         font-family: var(--ff-heading);
         font-weight: 500;
-        font-size: 7rem;
+        font-size: 9rem;
         position: relative;
         z-index: 2;
     }
@@ -1190,7 +1190,7 @@ a.active {
     .line-decor {
         position: relative;
         bottom: 4em;
-        right: 3em;
+        right: 6em;
         display: block;
         border-bottom: 0.5em solid #de005c;
         width: 20%;
@@ -1235,7 +1235,7 @@ a.active {
 
     p {
         font-family: var(--ff-paragraph);
-        font-size: 2.8rem;
+        font-size: 3.8rem;
         line-height: 1.5em;
         width: 90%;
         color: var(--clr-text);
@@ -1296,10 +1296,12 @@ a.active {
 .map {
 
     position: absolute;
+    top:360px;
+    right: 40px;
     margin: 0 auto;
 
     z-index: 1;
-    width: 60%;
+    width: 90%;
 
 }
 
@@ -1311,15 +1313,15 @@ a.active {
 
 .germany {
     position: absolute;
-    right: 156px;
-    top: 480px;
+    right: 176px;
+    top: 440px;
     z-index: 2;
 }
 
 .poland {
     position: absolute;
-    right: 90px;
-    top: 470px;
+    right: 120px;
+    top: 430px;
     z-index: 2;
 }
 
@@ -1342,10 +1344,8 @@ a.active {
 
 
 
-@media (min-width: 320px) {
-
-
-    .map {
+@media (min-width: 360px) {
+.map {
         position: relative;
         margin-top: 30px;
         margin-bottom: 60px;
@@ -2891,10 +2891,7 @@ a.active {
 }
 
 @media (min-width: 320px) {
-    .our {
-        margin-left: 2em;
-        margin-top: 1em;
-    }
+    
 }
 
 @media (min-width: 576px) {}
