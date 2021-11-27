@@ -42,7 +42,7 @@ section {
 
 header {
     background-color: rgb(30, 95, 76);
-    height: 100vh;
+    height: 50vh;
 }
 
 /* main {
@@ -552,6 +552,7 @@ a.active {
 /* ////////////////////// */
 /* MEDIA QUERIES START title-one, title-main, title-two */
 
+
 .title-one {
     width: 70%;
     position: absolute;
@@ -577,6 +578,12 @@ a.active {
 }
 
 @media (min-width: 360px) {
+
+    header{
+        height: 50vh;
+    }
+    
+
     .title-one {
         width: 70%;
         position: absolute;
@@ -682,6 +689,10 @@ a.active {
 }
 
 @media (min-width: 1200px) {
+    header{
+        height: 70vh;
+    }
+
     .title-one {
         width: 50%;
         position: absolute;
@@ -708,6 +719,10 @@ a.active {
 }
 
 @media (min-width: 1600px) {
+
+    header{
+        height: 100vh;
+    }
     .title-one {
         width: 50%;
         position: absolute;
@@ -734,6 +749,11 @@ a.active {
 }
 
 @media (min-width: 2560px) {
+
+    header{
+        height: 100vh;
+    }
+
     .title-one {
         width: 50%;
         position: absolute;
@@ -767,12 +787,12 @@ a.active {
 
 #experience {
     background-color: rgb(255, 255, 255);
-    min-height: 100vh;
+    min-height: 60vh;
     -webkit-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
     -moz-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
     box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
     position: relative;
-    bottom: -51px;
+    bottom: 341px;
     scroll-margin-bottom: 0.5em;
 }
 
@@ -1060,6 +1080,7 @@ a.active {
     }
 
     .line-decor {
+        z-index: 2;
         position: relative;
         bottom: 1.2em;
         right: 3em;
@@ -1116,13 +1137,13 @@ a.active {
     }
 
     .line-two {
-        z-index: 1;
+        z-index: 2;
         position: relative;
         bottom: 4.9em;
         margin-bottom: 1em;
         display: block;
         border-bottom: 1.5em solid #de005c;
-        width: 70%;
+        width: 40%;
     }
 
     .line-decor {
@@ -1136,7 +1157,7 @@ a.active {
 
     .text {
 
-        width: 65%;
+        width: 40%;
         text-align: justify;
         line-height: 1.5em;
         font-weight: 500;
@@ -1310,9 +1331,10 @@ a.active {
 }
 
 .pin {
+    display:static;
     z-index: 2;
-    width: 10%;
-    height: 5%;
+    width: 3em;
+    height: 3em;
 }
 
 .germany {
@@ -1330,6 +1352,7 @@ a.active {
 }
 
 .adgermany {
+    display: none;
     position: absolute;
     width: 40%;
     right: 170px;
@@ -1338,6 +1361,7 @@ a.active {
 }
 
 .adpoland {
+    display: none;
     position: absolute;
     width: 40%;
     right: 10px;
@@ -1453,7 +1477,7 @@ a.active {
     .map {
 
         position: absolute;
-        top: 200px;
+        top: 230px;
         right: 40px;
         margin: 0 auto;
 
@@ -1470,22 +1494,22 @@ a.active {
 
     .germany {
         position: absolute;
-        right: 290px;
-        top: 354px;
+        right: 385px;
+        top: 440px;
         z-index: 2;
     }
 
     .poland {
         position: absolute;
-        right: 190px;
-        top: 340px;
+        right: 240px;
+        top: 410px;
         z-index: 2;
     }
 
     .adgermany {
         position: absolute;
         width: 40%;
-        right: 170px;
+        right: 370px;
         top: 360px;
         z-index: 3;
     }
@@ -1503,32 +1527,32 @@ a.active {
     .map {
 
         position: absolute;
-        top: 200px;
-        right: 40px;
+        top: 260px;
+        right: 120px;
         margin: 0 auto;
 
         z-index: 1;
-        width: 90%;
+        width: 80%;
 
     }
 
     .pin {
         z-index: 2;
-        width: 9%;
-        height:10%;
+        width: 6%;
+        height:9%;
     }
 
     .germany {
         position: absolute;
-        right: 290px;
-        top: 354px;
+        right: 530px;
+        top: 510px;
         z-index: 2;
     }
 
     .poland {
         position: absolute;
-        right: 190px;
-        top: 340px;
+        right: 360px;
+        top: 460px;
         z-index: 2;
     }
 
@@ -1553,32 +1577,32 @@ a.active {
     .map {
 
         position: absolute;
-        top: 200px;
+        top: 20px;
         right: 40px;
         margin: 0 auto;
 
         z-index: 1;
-        width: 90%;
+        width: 50%;
 
     }
 
     .pin {
         z-index: 2;
-        width: 9%;
-        height:10%;
+        width: 6%;
+        height:11%;
     }
 
     .germany {
         position: absolute;
-        right: 290px;
-        top: 354px;
+        right: 327px;
+        top: 193px;
         z-index: 2;
     }
 
     .poland {
         position: absolute;
-        right: 190px;
-        top: 340px;
+        right: 210px;
+        top: 160px;
         z-index: 2;
     }
 
@@ -1602,50 +1626,105 @@ a.active {
 @media (min-width: 1600px) {
 
     .map {
-        position: relative;
-        z-index: 0;
-        width: 70%;
-        bottom: 670px;
-        left: 200px;
+
+        position: absolute;
+        top: 60px;
+        right: 40px;
+        margin: 0 auto;
+
+        z-index: 1;
+        width: 50%;
+
     }
 
     .pin {
         z-index: 2;
-        width: 95px;
-        height: 97px;
+        width: 5%;
+        height:12%;
     }
 
     .germany {
         position: absolute;
-        right: 730px;
-        top: 455px;
+        right: 428px;
+        top: 295px;
         z-index: 2;
     }
 
     .poland {
         position: absolute;
-        right: 449px;
-        top: 406px;
+        right: 260px;
+        top: 260px;
         z-index: 2;
     }
 
     .adgermany {
         position: absolute;
-        width: 15%;
-        right: 770px;
-        top: 430px;
+        width: 40%;
+        right: 170px;
+        top: 360px;
+        z-index: 3;
+    }
+
+    .adpoland {
+        position: absolute;
+        width: 40%;
+        right: 10px;
+        top: 440px;
+        z-index: 3;
+    }
+}
+
+
+@media (min-width: 2560px) {
+
+    .map {
+
+        position: absolute;
+        top: 60px;
+        right: 40px;
+        margin: 0 auto;
+
+        z-index: 1;
+        width: 60%;
+
+    }
+
+    .pin {
+        z-index: 2;
+        width: 5%;
+        height:10%;
+    }
+
+    .germany {
+        position: absolute;
+        right: 826px;
+        top: 515px;
+        z-index: 2;
+    }
+
+    .poland {
+        position: absolute;
+        right: 500px;
+        top: 460px;
+        z-index: 2;
+    }
+
+    .adgermany {
+        position: absolute;
+        width: 20%;
+        right: 170px;
+        top: 360px;
         z-index: 3;
     }
 
     .adpoland {
         position: absolute;
         width: 20%;
-        right: 105px;
-        top: 360px;
+        right: 10px;
+        top: 440px;
         z-index: 3;
     }
 }
-
 
 /* ////////////////////// */
 /* MEDIA QUERIES END*/
@@ -1881,7 +1960,16 @@ a.active {
 
 
 
-@media (min-width: 320px) {
+@media (min-width: 360px) {
+    #skills {
+        z-index: 3;
+        background-color: rgb(255, 255, 255);
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        top: 50px;
+        scroll-margin-bottom: 0.5em;
+    }
 
     .boxy-menu {
         position: absolute;
@@ -1968,6 +2056,17 @@ a.active {
 
 
 @media (min-width: 576px) {
+
+    #skills {
+        z-index: 3;
+        background-color: rgb(255, 255, 255);
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        top: 70px;
+        scroll-margin-bottom: 0.5em;
+    }
+
     .boxy-menu {
         position: absolute;
         top: 6em;
@@ -2023,6 +2122,16 @@ a.active {
 
 
 @media (min-width: 768px) {
+
+    #skills {
+        z-index: 3;
+        background-color: rgb(255, 255, 255);
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        top: 270px;
+        scroll-margin-bottom: 0.5em;
+    }
     .boxy-menu {
         position: absolute;
         top: 6em;
@@ -2035,6 +2144,16 @@ a.active {
 }
 
 @media (min-width: 992px) {
+    #skills {
+        z-index: 3;
+        background-color: rgb(255, 255, 255);
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        top: 400px;
+        scroll-margin-bottom: 0.5em;
+    }
+
     .boxy-menu {
         position: absolute;
         top: 6em;
@@ -2178,6 +2297,17 @@ a.active {
 }
 
 @media (min-width: 1200px) {
+
+    #skills {
+        z-index: 3;
+        background-color: rgb(255, 255, 255);
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        top: 650px;
+        scroll-margin-bottom: 0.5em;
+    }
+
     .boxy-menu {
         position: absolute;
         top: 16em;
@@ -2189,6 +2319,17 @@ a.active {
 }
 
 @media (min-width: 1600px) {
+
+    #skills {
+        z-index: 3;
+        background-color: rgb(255, 255, 255);
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        top: 650px;
+        scroll-margin-bottom: 0.5em;
+    }
+
     .boxy-menu {
         position: absolute;
         top: 16em;
@@ -2335,6 +2476,166 @@ a.active {
         width: 226px;
     }
 }
+
+@media (min-width: 2560px) {
+
+    #skills {
+        z-index: 3;
+        background-color: rgb(255, 255, 255);
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        top: 650px;
+        scroll-margin-bottom: 0.5em;
+    }
+
+    .boxy-menu {
+        position: absolute;
+        top: 16em;
+        left: 34em;
+        display: grid;
+        grid-template-columns: repeat(3, 275px);
+        width: 100%;
+    }
+
+    .item:nth-of-type(1):hover {
+        background-size: 100px;
+        order: 1;
+        position: relative;
+        right: 6em;
+        height: 366px;
+        width: 366px;
+    }
+
+    .item:nth-of-type(1) {
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100px;
+        order: 1;
+        position: relative;
+        bottom: 0.2em;
+        right: 6em;
+        height: 366px;
+        width: 366px;
+    }
+
+    .item:nth-of-type(2):hover {
+        background-size: 60px;
+        order: 1;
+        position: relative;
+        bottom: 8em;
+        left: 29.5em;
+        height: 328px;
+        width: 328px;
+    }
+
+    .item:nth-of-type(2) {
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 60px;
+        order: 1;
+        position: relative;
+        bottom: 8em;
+        left: 29.5em;
+        height: 328px;
+        width: 328px;
+    }
+
+    .item:nth-of-type(3):hover {
+        background-size: 125px;
+        order: 1;
+        position: relative;
+        bottom: 3em;
+        right: 22.5em;
+        height: 226px;
+        width: 226px;
+    }
+
+    .item:nth-of-type(3) {
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 125px;
+        order: 1;
+        position: relative;
+        bottom: 3em;
+        right: 22.5em;
+        height: 226px;
+        width: 226px;
+    }
+
+    .item:nth-of-type(4):hover {
+        background-size: 122px;
+        order: 1;
+        position: relative;
+        bottom: 3em;
+        left: 8em;
+        height: 226px;
+        width: 226px;
+    }
+
+    .item:nth-of-type(4) {
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 122px;
+        order: 1;
+        position: relative;
+        bottom: 3em;
+        left: 8em;
+        height: 226px;
+        width: 226px;
+    }
+
+    .item:nth-of-type(5):hover {
+        background-size: 155px;
+        order: 1;
+        position: relative;
+        bottom: 7.9em;
+        left: 5em;
+        height: 328px;
+        width: 328px;
+    }
+
+    .item:nth-of-type(5) {
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 155px;
+        order: 1;
+        position: relative;
+        bottom: 7.9em;
+        left: 5em;
+        height: 328px;
+        width: 328px;
+    }
+
+    .item:nth-of-type(6):hover {
+        background-size: 120px;
+        order: 1;
+        position: relative;
+        bottom: 13em;
+        left: 12.1em;
+        height: 226px;
+        width: 226px;
+    }
+
+    .item:nth-of-type(6) {
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 120px;
+        order: 1;
+        position: relative;
+        bottom: 13em;
+        left: 12.1em;
+        height: 226px;
+        width: 226px;
+    }
+}
+
 
 /* ////////////////////// */
 /* MEDIA QUERIES END */

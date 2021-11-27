@@ -151,3 +151,15 @@ const fadeOnScroll = new IntersectionObserver
 fade.forEach(fadeOne => {
     fadeOnScroll.observe(fadeOne);
 });
+
+const hoverAdres = document.querySelector(".pin");
+
+const adresGermany = document.querySelector(".adgermany");
+const adresPoland = document.querySelector(".adpoland");
+
+
+hoverAdres.addEventListener("mouseover", () => {
+    adresGermany.style.display = "block";
+});
+
+
