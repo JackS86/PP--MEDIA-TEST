@@ -178,12 +178,12 @@ const adresPoland = document.querySelector(".adpoland");
 
 const gallery = document.getElementById("gallery");
 const popup = document.getElementById("popup")
-const selectedImage = document.getElementById("selectedImage"); const imageIndexes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26,27];
+const selectedImage = document.getElementById("selectedImage"); const imageIndexes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27];
 const selectedIndex = null;
 
 imageIndexes.forEach(i => {
     const image = document.createElement('img');
-    image.src = `/images/portfolio/portfolio/works-${i}.jpg`;
+    image.src = `/images/works-${i}.jpg`;
     image.alt = `Portfolio Works ${i} by Pink Pepper Media`;
     image.classList.add('galleryImg');
 
