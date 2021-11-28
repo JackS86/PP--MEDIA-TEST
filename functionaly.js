@@ -183,7 +183,7 @@ const selectedIndex = null;
 
 imageIndexes.forEach(i => {
     const image = document.createElement('img');
-    image.src = `images/works-${i}.jpg`;
+    image.src = `./images/works-${i}.jpg`;
     image.alt = `Portfolio Works ${i} by Pink Pepper Media`;
     image.classList.add('galleryImg');
 
