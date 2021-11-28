@@ -792,7 +792,7 @@ a.active {
     -moz-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
     box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
     position: relative;
-    bottom: 341px;
+    bottom: 10px;
     scroll-margin-bottom: 0.5em;
 }
 
@@ -1777,7 +1777,7 @@ a.active {
 #skills {
     z-index: 3;
     background-color: rgb(255, 255, 255);
-    min-height: 100vh;
+    min-height: 60vh;
     width: 100%;
     -webkit-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
     -moz-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
@@ -2656,6 +2656,7 @@ a.active {
     border-bottom: 0.2em solid #de005c;
     margin-top: 5px;
     margin-bottom: 2em;
+    width:70%;
 }
 
 .design {
@@ -2703,10 +2704,15 @@ a.active {
 }
 
 .textT {
-    width: 80%;
+    width: 70%;
+    text-align:left;
 }
 
-@media (min-width: 320px) {
+.titleT {
+    width: 40%;
+}
+
+@media (min-width: 360px) {
     .textD {
         width: 70%;
     }
@@ -2922,15 +2928,15 @@ a.active {
 
 .container-caro {
     position: absolute;
-    top: 45px;
-    right: 36px;
+    top: 145px;
+    left: 13px;
     width: 90%;
     margin: 10px auto;
 }
 
 .carouselNew {
     border: 2px double #de005c;
-    height: 1450px;
+    height: 400px;
 }
 
 .sliderNew {
@@ -3103,10 +3109,10 @@ a.active {
 
 
 
-@media (min-width: 320px) {
+@media (min-width: 360px) {
     #POSM {
         z-index: 3;
-        min-height: 50vh;
+        min-height: 100vh;
         width: 100%;
         background: #ffffff;
         -webkit-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
@@ -3115,38 +3121,97 @@ a.active {
         position: relative;
         scroll-margin-bottom: 0.5em;
     }
-
+    
     .container-caro {
-        width: 60%;
-        margin: 10px auto;
         position: absolute;
-        top: 140px;
-        left: 670px;
-
+        top: 145px;
+        left: 15px;
+        width: 90%;
+        margin: 10px auto;
     }
-
+    
     .carouselNew {
         border: 2px double #de005c;
-        height: 35%;
-        overflow: hidden;
+        height: 400px;
     }
-}
+    
+    .sliderNew {
+        height: 100%;
+        display: flex;
+        /* parametr odpowiedzialny za wyswietlanie sekcji */
+        width: 400%
+    }
+    
+    .sliderNew section {
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .galleryImg {
+        max-width: 100%;
+    
+        position: relative;
+        transition: transform 250ms;
+        -webkit-transition: transform 250ms;
+        -moz-transition: transform 250ms;
+        -ms-transition: transform 250ms;
+        -o-transition: transform 250ms;
+        cursor: pointer;
+    
+    }
+    
+    #gallery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(7, 15vw);
+        grid-gap: 1px;
+    }
+    
+    .galleryImg:hover {
+        border: 1px solid #ffffff;
+        padding: 3px;
+        transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
+        -moz-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+        -o-transform: translateY(-5px);
+    }
+    
+    #popup {
+        z-index: 5;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        /*left:0;
+        */
+        right: 0;
+        background-color: #de005d63;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(-100%);
+        transition: 650ms transform;
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+        -webkit-transition: 650ms transform;
+        -moz-transition: 650ms transform;
+        -ms-transition: 650ms transform;
+        -o-transition: 650ms transform;
+    }
+    
+    #selectedImage {
+        max-height: 100%;
+        border: 10px solid whitesmoke;
+    }
+}  
 
 
-
-
-
-
-.visual {
-    background-color: rgb(59, 106, 246);
-    color: seashell;
-    display: flex;
-    flex-basis: auto;
-    justify-content: center;
-    align-items: center;
-
-
-}
 
 
 
