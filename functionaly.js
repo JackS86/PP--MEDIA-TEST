@@ -152,14 +152,25 @@ fade.forEach(fadeOne => {
     fadeOnScroll.observe(fadeOne);
 });
 
-const hoverAdres = document.querySelector(".pin");
+const hoverAdresPoland = document.querySelector(".pin-p");
+const hoverAdresGermany = document.querySelector(".pin-g");
 
 const adresGermany = document.querySelector(".adgermany");
 const adresPoland = document.querySelector(".adpoland");
 
 
-hoverAdres.addEventListener("mouseover", () => {
+hoverAdresGermany.addEventListener("mouseover", () => {
     adresGermany.style.display = "block";
 });
 
+hoverAdresGermany.addEventListener("mouseout", () => {
+    adresGermany.style.display = "none";
+});
 
+hoverAdresPoland.addEventListener("mouseover", () => {
+    adresPoland.style.display = "block";
+});
+
+hoverAdresPoland.addEventListener("mouseout", () => {
+    adresPoland.style.display = "none";
+});
