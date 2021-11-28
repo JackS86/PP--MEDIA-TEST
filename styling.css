@@ -420,7 +420,7 @@ a.active {
         display: flex;
         justify-content: flex-start;
         top: 4.5em;
-        left: 1250px;
+        left: 155em ;
         width: 40%;
     }
 
@@ -727,7 +727,7 @@ a.active {
     .title-one {
         width: 50%;
         position: absolute;
-        top: 31em;
+        top: 28em;
         left: 80em;
         transform: translate(-50%, -50%);
     }
@@ -743,7 +743,7 @@ a.active {
     .title-two {
         width: 50%;
         position: absolute;
-        top: 68.5em;
+        top: 71.5em;
         left: 80em;
         transform: translate(-50%, -50%);
     }
@@ -1688,15 +1688,15 @@ a.active {
 
     .germany {
         position: absolute;
-        right: 600px;
-        top: 390px;
+        right: 710px;
+        top: 470px;
         z-index: 2;
     }
 
     .poland {
         position: absolute;
-        right: 370px;
-        top: 340px;
+        right: 430px;
+        top: 400px;
         z-index: 2;
     }
 
@@ -3657,7 +3657,7 @@ a.active {
 
     #POSM {
         z-index: 3;
-        min-height: 70vh;
+        min-height: 80vh;
         width: 100%;
         scroll-margin-bottom: 0.5em;
     }
@@ -3672,7 +3672,7 @@ a.active {
 
     .carouselNew {
         border: 2px double #de005c;
-        height: 690px;
+        height: 820px;
     }
 
     .sliderNew {
@@ -3853,7 +3853,7 @@ a.active {
 
 #KEY-VISUALS {
     background-color: rgb(255, 255, 255);
-    min-height: 50vh;
+    min-height: 70vh;
     scroll-margin-top: 16.2em;
 }
 
@@ -3909,7 +3909,7 @@ a.active {
 @media (min-width: 1600px) {
     #KEY-VISUALS {
         background-color: rgb(255, 255, 255);
-        min-height: 100vh;
+        min-height: 150vh;
         scroll-margin-top: 16.2em;
     }
 
