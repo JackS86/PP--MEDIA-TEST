@@ -159,18 +159,49 @@ const adresGermany = document.querySelector(".adgermany");
 const adresPoland = document.querySelector(".adpoland");
 
 
-hoverAdresGermany.addEventListener("mouseover", () => {
-    adresGermany.style.display = "block";
+// hoverAdresGermany.addEventListener("mouseover", () => {
+//     adresGermany.style.display = "block";
+// });
+
+// hoverAdresGermany.addEventListener("mouseout", () => {
+//     adresGermany.style.display = "none";
+// });
+
+// hoverAdresPoland.addEventListener("mouseover", () => {
+//     adresPoland.style.display = "block";
+// });
+
+// hoverAdresPoland.addEventListener("mouseout", () => {
+//     adresPoland.style.display = "none";
+// });
+
+
+const gallery = document.getElementById("gallery");
+const popup = document.getElementById("popup")
+const selectedImage = document.getElementById("selectedImage"); const imageIndexes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26,27];
+const selectedIndex = null;
+
+imageIndexes.forEach(i => {
+    const image = document.createElement('img');
+    image.src = `/images/portfolio/portfolio/works-${i}.jpg`;
+    image.alt = `Portfolio Works ${i} by Pink Pepper Media`;
+    image.classList.add('galleryImg');
+
+
+    image.addEventListener("click", () => {
+
+        popup.style.transform = `translateY(0)`;
+        selectedImage.src = `/images/works-${i}.jpg`;
+        selectedImage.alt = `Portfolio Works ${i} by Pink Pepper Media`;
+    });
+
+
+
+    gallery.appendChild(image);
 });
 
-hoverAdresGermany.addEventListener("mouseout", () => {
-    adresGermany.style.display = "none";
-});
-
-hoverAdresPoland.addEventListener("mouseover", () => {
-    adresPoland.style.display = "block";
-});
-
-hoverAdresPoland.addEventListener("mouseout", () => {
-    adresPoland.style.display = "none";
-});
+popup.addEventListener("click", () => {
+    popup.style.transform = `translateY(-100%)`;
+    popup.src = "";
+    popup.alt = "";
+})

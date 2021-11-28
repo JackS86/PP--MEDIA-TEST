@@ -925,7 +925,7 @@ a.active {
 
     .our {
         margin-left: 2em;
-        margin-top: 1em;
+        margin-top: 2em;
     }
 
 
@@ -983,7 +983,7 @@ a.active {
 
     .our {
         margin-left: 2em;
-        margin-top: 1em;
+        margin-top: 3em;
     }
 
     h1 {
@@ -1048,7 +1048,7 @@ a.active {
 
     .our {
         margin-left: 2em;
-        margin-top: 1em;
+        margin-top: 4em;
     }
 
     h1 {
@@ -1076,7 +1076,7 @@ a.active {
         margin-bottom: 1em;
         display: block;
         border-bottom: 0.6em solid #de005c;
-        width: 65%;
+        width: 55%;
     }
 
     .line-decor {
@@ -1108,13 +1108,12 @@ a.active {
     #experience {
         min-height: 50vh;
         position: relative;
-        bottom: -235px;
         scroll-margin-bottom: 0.5em;
     }
 
     .our {
         margin-left: 5em;
-        margin-top: 1em;
+        margin-top: 5em;
     }
 
     h1 {
@@ -1172,7 +1171,7 @@ a.active {
 
 @media (min-width: 1600px) {
     #experience {
-        min-height: 100vh;
+        min-height: 60vh;
         position: relative;
         bottom: -385px;
         scroll-margin-bottom: 0.5em;
@@ -1180,7 +1179,7 @@ a.active {
 
     .our {
         margin-left: 5em;
-        margin-top: 1em;
+        margin-top: 5em;
     }
 
     h1 {
@@ -1209,7 +1208,7 @@ a.active {
         margin-bottom: 1em;
         display: block;
         border-bottom: 1.5em solid #de005c;
-        width: 40%;
+        width: 30%;
     }
 
     .line-decor {
@@ -1246,7 +1245,7 @@ a.active {
 
     .our {
         margin-left: 9em;
-        margin-top: 1em;
+        margin-top: 7em;
     }
 
     h1 {
@@ -1359,7 +1358,7 @@ a.active {
 }
 
 .adgermany {
-    display:none;
+    display:block;
     position: absolute;
     width: 40%;
     right: 170px;
@@ -1368,7 +1367,7 @@ a.active {
 }
 
 .adpoland {
-    display:none;
+    display:block;
     position: absolute;
     width: 40%;
     right: 10px;
@@ -1420,8 +1419,8 @@ a.active {
 
     .adgermany {
         position: absolute;
-        width: 40%;
-        right: 170px;
+        width: 30%;
+        right: 220px;
         top: 360px;
         z-index: 3;
     }
@@ -1590,7 +1589,7 @@ a.active {
     .adgermany {
         position: absolute;
         width: 40%;
-        right: 170px;
+        right: 470px;
         top: 360px;
         z-index: 3;
     }
@@ -1608,13 +1607,13 @@ a.active {
     .map {
 
         position: absolute;
-        top: 20px;
+        top: 50px;
         right: 40px;
         margin: 0 auto;
 
         z-index: 1;
-        width: 50%;
-        height: 80%;
+        width: 60%;
+      
 
     }
 
@@ -1631,15 +1630,15 @@ a.active {
 
     .germany {
         position: absolute;
-        right: 327px;
-        top: 215px;
+        right: 387px;
+        top: 255px;
         z-index: 2;
     }
 
     .poland {
         position: absolute;
-        right: 210px;
-        top: 190px;
+        right: 250px;
+        top: 230px;
         z-index: 2;
     }
 
@@ -1664,13 +1663,12 @@ a.active {
     .map {
 
         position: absolute;
-        top: 20px;
+        top: 50px;
         right: 30px;
         margin: 0 auto;
 
         z-index: 1;
         width: 70%;
-        height: 70%;
 
     }
 
@@ -1728,7 +1726,7 @@ a.active {
 
         z-index: 1;
         width: 60%;
-        height: 100%;
+     
 
     }
 
@@ -1747,22 +1745,22 @@ a.active {
     .germany {
         position: absolute;
         right: 800px;
-        top: 530px;
+        top: 590px;
         z-index: 2;
     }
 
     .poland {
         position: absolute;
         right: 480px;
-        top: 480px;
+        top: 540px;
         z-index: 2;
     }
 
     .adgermany {
         position: absolute;
         width: 20%;
-        right: 610px;
-        top: 260px;
+        right: 810px;
+        top: 380px;
         z-index: 3;
     }
 
@@ -1770,7 +1768,7 @@ a.active {
         position: absolute;
         width: 20%;
         right: 50px;
-        top: 260px;
+        top: 360px;
         z-index: 3;
     }
 }
@@ -2109,7 +2107,7 @@ a.active {
     #skills {
         z-index: 3;
         background-color: rgb(255, 255, 255);
-        min-height: 100vh;
+        min-height: 50vh;
         width: 100%;
         position: relative;
         top: 70px;
@@ -2175,7 +2173,7 @@ a.active {
     #skills {
         z-index: 3;
         background-color: rgb(255, 255, 255);
-        min-height: 100vh;
+        min-height: 60vh;
         width: 100%;
         position: relative;
         top: 270px;
@@ -2196,7 +2194,7 @@ a.active {
     #skills {
         z-index: 3;
         background-color: rgb(255, 255, 255);
-        min-height: 100vh;
+        min-height: 80vh;
         width: 100%;
         position: relative;
         top: 400px;
@@ -2350,7 +2348,7 @@ a.active {
     #skills {
         z-index: 3;
         background-color: rgb(255, 255, 255);
-        min-height: 100vh;
+        min-height: 120vh;
         width: 100%;
         position: relative;
         top: 650px;
@@ -2372,7 +2370,7 @@ a.active {
     #skills {
         z-index: 3;
         background-color: rgb(255, 255, 255);
-        min-height: 100vh;
+        min-height: 150vh;
         width: 100%;
         position: relative;
         top: 650px;
@@ -2382,19 +2380,21 @@ a.active {
     .boxy-menu {
         position: absolute;
         top: 16em;
-        left: 34em;
+        left: 30em;
         display: grid;
-        grid-template-columns: repeat(3, 275px);
-        width: 100%;
+        grid-template-columns: repeat(3, 255px);
+        width:100%;
     }
 
     .item:nth-of-type(1):hover {
         background-size: 100px;
         order: 1;
         position: relative;
+        bottom: 0.2em;
         right: 6em;
-        height: 366px;
-        width: 366px;
+        right: 6em;
+        height: 326px;
+        width: 326px;
     }
 
     .item:nth-of-type(1) {
@@ -2406,18 +2406,18 @@ a.active {
         position: relative;
         bottom: 0.2em;
         right: 6em;
-        height: 366px;
-        width: 366px;
+        height: 326px;
+        width: 326px;
     }
 
     .item:nth-of-type(2):hover {
         background-size: 60px;
         order: 1;
         position: relative;
-        bottom: 8em;
-        left: 29.5em;
-        height: 328px;
-        width: 328px;
+        bottom: 5em;
+        left: 25.5em;
+        height: 280px;
+        width: 280px;
     }
 
     .item:nth-of-type(2) {
@@ -2427,20 +2427,20 @@ a.active {
         background-size: 60px;
         order: 1;
         position: relative;
-        bottom: 8em;
-        left: 29.5em;
-        height: 328px;
-        width: 328px;
+        bottom: 5em;
+        left: 25.5em;
+        height: 280px;
+        width: 280px;
     }
 
     .item:nth-of-type(3):hover {
         background-size: 125px;
         order: 1;
         position: relative;
-        bottom: 3em;
+        bottom: 1.5em;
         right: 22.5em;
-        height: 226px;
-        width: 226px;
+        height: 206px;
+        width: 206px;
     }
 
     .item:nth-of-type(3) {
@@ -2450,20 +2450,20 @@ a.active {
         background-size: 125px;
         order: 1;
         position: relative;
-        bottom: 3em;
+        bottom: 1.5em;
         right: 22.5em;
-        height: 226px;
-        width: 226px;
+        height: 206px;
+        width: 206px;
     }
 
     .item:nth-of-type(4):hover {
         background-size: 122px;
         order: 1;
         position: relative;
-        bottom: 3em;
-        left: 8em;
-        height: 226px;
-        width: 226px;
+        bottom: 2em;
+        left: 6em;
+        height: 206px;
+        width: 206px;
     }
 
     .item:nth-of-type(4) {
@@ -2473,20 +2473,20 @@ a.active {
         background-size: 122px;
         order: 1;
         position: relative;
-        bottom: 3em;
-        left: 8em;
-        height: 226px;
-        width: 226px;
+        bottom: 2em;
+        left: 6em;
+        height: 206px;
+        width: 206px;
     }
 
     .item:nth-of-type(5):hover {
         background-size: 155px;
         order: 1;
         position: relative;
-        bottom: 7.9em;
-        left: 5em;
-        height: 328px;
-        width: 328px;
+        bottom: 5.5em;
+        left: 3em;
+        height: 280px;
+        width: 280px;
     }
 
     .item:nth-of-type(5) {
@@ -2496,20 +2496,20 @@ a.active {
         background-size: 155px;
         order: 1;
         position: relative;
-        bottom: 7.9em;
-        left: 5em;
-        height: 328px;
-        width: 328px;
+        bottom: 5.5em;
+        left: 3em;
+        height: 280px;
+        width: 280px;
     }
 
     .item:nth-of-type(6):hover {
         background-size: 120px;
         order: 1;
         position: relative;
-        bottom: 13em;
-        left: 12.1em;
-        height: 226px;
-        width: 226px;
+        bottom: 9.1em;
+        left: 7.5em;
+        height: 206px;
+        width: 206px;
     }
 
     .item:nth-of-type(6) {
@@ -2519,10 +2519,10 @@ a.active {
         background-size: 120px;
         order: 1;
         position: relative;
-        bottom: 13em;
-        left: 12.1em;
-        height: 226px;
-        width: 226px;
+        bottom: 9.1em;
+        left: 7.5em;
+        height: 206px;
+        width: 206px;
     }
 }
 
@@ -2531,7 +2531,7 @@ a.active {
     #skills {
         z-index: 3;
         background-color: rgb(255, 255, 255);
-        min-height: 100vh;
+        min-height: 160vh;
         width: 100%;
         position: relative;
         top: 650px;
@@ -2540,10 +2540,10 @@ a.active {
 
     .boxy-menu {
         position: absolute;
-        top: 16em;
-        left: 34em;
+        top: 32em;
+        left: 68em;
         display: grid;
-        grid-template-columns: repeat(3, 275px);
+        grid-template-columns: repeat(3, 335px);
         width: 100%;
     }
 
@@ -2551,9 +2551,10 @@ a.active {
         background-size: 100px;
         order: 1;
         position: relative;
-        right: 6em;
-        height: 366px;
-        width: 366px;
+        bottom: 0.2em;
+        right: 8em;
+        height: 396px;
+        width: 396px;
     }
 
     .item:nth-of-type(1) {
@@ -2564,9 +2565,9 @@ a.active {
         order: 1;
         position: relative;
         bottom: 0.2em;
-        right: 6em;
-        height: 366px;
-        width: 366px;
+        right: 8em;
+        height: 396px;
+        width: 396px;
     }
 
     .item:nth-of-type(2):hover {
@@ -2574,9 +2575,9 @@ a.active {
         order: 1;
         position: relative;
         bottom: 8em;
-        left: 29.5em;
-        height: 328px;
-        width: 328px;
+        left: 26.5em;
+        height: 338px;
+        width: 338px;
     }
 
     .item:nth-of-type(2) {
@@ -2587,19 +2588,19 @@ a.active {
         order: 1;
         position: relative;
         bottom: 8em;
-        left: 29.5em;
-        height: 328px;
-        width: 328px;
+        left: 26.5em;
+        height: 338px;
+        width: 338px;
     }
 
     .item:nth-of-type(3):hover {
         background-size: 125px;
         order: 1;
         position: relative;
-        bottom: 3em;
-        right: 22.5em;
-        height: 226px;
-        width: 226px;
+        bottom: 2.5em;
+        right: 33em;
+        height: 236px;
+        width: 236px;
     }
 
     .item:nth-of-type(3) {
@@ -2609,10 +2610,10 @@ a.active {
         background-size: 125px;
         order: 1;
         position: relative;
-        bottom: 3em;
-        right: 22.5em;
-        height: 226px;
-        width: 226px;
+        bottom: 2.5em;
+        right: 33em;
+        height: 236px;
+        width: 236px;
     }
 
     .item:nth-of-type(4):hover {
@@ -2621,8 +2622,8 @@ a.active {
         position: relative;
         bottom: 3em;
         left: 8em;
-        height: 226px;
-        width: 226px;
+        height: 236px;
+        width: 236px;
     }
 
     .item:nth-of-type(4) {
@@ -2634,8 +2635,8 @@ a.active {
         position: relative;
         bottom: 3em;
         left: 8em;
-        height: 226px;
-        width: 226px;
+        height: 236px;
+        width: 236px;
     }
 
     .item:nth-of-type(5):hover {
@@ -2643,9 +2644,9 @@ a.active {
         order: 1;
         position: relative;
         bottom: 7.9em;
-        left: 5em;
-        height: 328px;
-        width: 328px;
+        left: 0.5em;
+        height: 338px;
+        width: 338px;
     }
 
     .item:nth-of-type(5) {
@@ -2656,9 +2657,9 @@ a.active {
         order: 1;
         position: relative;
         bottom: 7.9em;
-        left: 5em;
-        height: 328px;
-        width: 328px;
+        left: 0.5em;
+        height: 338px;
+        width: 338px;
     }
 
     .item:nth-of-type(6):hover {
@@ -2666,9 +2667,9 @@ a.active {
         order: 1;
         position: relative;
         bottom: 13em;
-        left: 12.1em;
-        height: 226px;
-        width: 226px;
+        left: 3em;
+        height: 236px;
+        width: 236px;
     }
 
     .item:nth-of-type(6) {
@@ -2679,9 +2680,9 @@ a.active {
         order: 1;
         position: relative;
         bottom: 13em;
-        left: 12.1em;
-        height: 226px;
-        width: 226px;
+        left: 3em;
+        height: 236px;
+        width: 236px;
     }
 }
 
@@ -2811,6 +2812,10 @@ a.active {
     .textT {
         width: 70%;
     }
+
+    .titleT {
+        width: 50%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -2841,7 +2846,7 @@ a.active {
 
 @media (min-width: 992px) {
     .textD {
-        width: 50%;
+        width: 60%;
     }
 
     .textA {
@@ -2862,6 +2867,14 @@ a.active {
 
     .textT {
         width: 50%;
+    }
+
+    .line-acapit {
+        display: block;
+        border-bottom: 0.2em solid #de005c;
+        margin-top: 5px;
+        margin-bottom: 2em;
+        width:60%;
     }
 }
 
@@ -2887,39 +2900,111 @@ a.active {
     }
 
     .textT {
-        width: 50%;
+        width: 60%;
     }
 }
 
 @media (min-width: 1600px) {
     .textD {
-        width: 40%;
+        width: 30%;
+        text-align: left;
+        letter-spacing: -0.01em;
     }
 
     .textA {
-        width: 40%;
+        width: 30%;
+        text-align: left;
+        letter-spacing: -0.01em;
     }
 
     .textP {
-        width: 40%;
+        width: 30%;
+        text-align: left;
+        letter-spacing: -0.01em;
     }
 
     .textG {
-        width: 40%;
+        width: 30%;
+        text-align: left;
+        letter-spacing: -0.01em;
     }
 
     .textPS {
-        width: 40%;
+        width: 30%;
+        text-align: left;
+        letter-spacing: -0.01em;
     }
 
     .textT {
-        width: 40%;
+        width: 30%;
+        text-align: left;
+        letter-spacing: -0.01em;
+    }
+
+    .line-acapit {
+        display: block;
+        border-bottom: 0.2em solid #de005c;
+        margin-top: 5px;
+        margin-bottom: 2em;
+        width:30%;
+    }
+
+    .titleT {
+        width: 30%;
     }
 }
 
 
 
+@media (min-width: 2560px) {
+    .textD {
+        width: 50%;
+        text-align: left;
+        letter-spacing: -0.01em;
+    }
 
+    .textA {
+        width: 50%;
+        text-align: left;
+        letter-spacing: -0.01em;
+    }
+
+    .textP {
+        width: 50%;
+        text-align: left;
+        letter-spacing: -0.01em;
+    }
+
+    .textG {
+        width: 50%;
+        text-align: left;
+        letter-spacing: -0.01em;
+    }
+
+    .textPS {
+        width: 50%;
+        text-align: left;
+        letter-spacing: -0.01em;
+    }
+
+    .textT {
+        width: 50%;
+        text-align: left;
+        letter-spacing: -0.01em;
+    }
+
+    .line-acapit {
+        display: block;
+        border-bottom: 0.2em solid #de005c;
+        margin-top: 5px;
+        margin-bottom: 2em;
+        width:50%;
+    }
+
+    .titleT {
+        width: 50%;
+    }
+}
 
 
 
@@ -3849,7 +3934,7 @@ a.active {
 
 #KEY-VISUALS {
     background-color: rgb(255, 255, 255);
-    min-height: 40vh;
+    min-height: 70vh;
     scroll-margin-top: 16.2em;
 }
 
