@@ -46,7 +46,7 @@ header {
 }
 
 /* main {
-    background-color: rgb(235, 20, 20);
+    background-color: rgb(255, 255, 255);
     height: 100vh;
 } */
 
@@ -886,15 +886,7 @@ a.nav-link {
     }
 }
 
-@media (min-width: 1024px) {
-    .languages-wrapper {
-        display: flex;
-        justify-content: flex-start;
-        top: 2em;
-        left: 82em;
-        width: 40%;
-    }
-}
+
 
 @media (min-width: 1200px) {
     .languages-wrapper {
@@ -909,13 +901,13 @@ a.nav-link {
         font-size: 1.5rem;
     }
 }
-
+/* //  Monitora Jack// */
 @media (min-width: 1440px) {
     .languages-wrapper {
         display: flex;
         justify-content: flex-start;
         top: 5em;
-        left: 119em;
+        left: 139em;
         width: 40%;
     }
 
@@ -923,13 +915,13 @@ a.nav-link {
         font-size: 1.5rem;
     }
 }
-
+/* Monitor Jack */
 @media (min-width: 1600px) {
     .languages-wrapper {
         display: flex;
         justify-content: flex-start;
         top: 4.5em;
-        left: 125em ;
+        left: 155em ;
         width: 40%;
     }
 
@@ -1236,24 +1228,24 @@ a.nav-link {
     .title-one {
         width: 50%;
         position: absolute;
-        top: 56em;
-        left: 80em;
+        top: 36em;
+        left: 90em;
         transform: translate(-50%, -50%);
     }
 
     .title-main {
         width: 50%;
         position: absolute;
-        top: 70.5em;
-        left: 79.5em;
+        top: 53.5em;
+        left: 90em;
         transform: translate(-50%, -50%);
     }
 
     .title-two {
         width: 50%;
         position: absolute;
-        top: 93.5em;
-        left: 80em;
+        top: 80.5em;
+        left: 90em;
         transform: translate(-50%, -50%);
     }
 }
@@ -1367,7 +1359,7 @@ a.nav-link {
         background-color: rgb(255, 255, 255);
         min-height: 100vh;
         position: relative;
-        bottom: 30px;
+        top:0px;
         scroll-margin-top:5em;
     }
 
@@ -1826,25 +1818,23 @@ a.nav-link {
 
 .map {
 
-    position: absolute;
-    top: 360px;
-    right: 40px;
+    position: relative;
+    top: 0px;
     margin: 0 auto;
-
     z-index: 1;
     width: 90%;
 
 }
 
 .pin-g {
-    display: static;
+    display: absolute;
     z-index: 2;
     width: 3em;
     height: 3em;
 }
 
 .pin-p {
-    display: static;
+    display: absolute;
     z-index: 2;
     width: 3em;
     height: 3em;
@@ -1853,14 +1843,14 @@ a.nav-link {
 .germany {
     position: absolute;
     right: 176px;
-    top: 440px;
+    top: 420px;
     z-index: 2;
 }
 
 .poland {
     position: absolute;
     right: 120px;
-    top: 430px;
+    top: 410px;
     z-index: 2;
 }
 
@@ -2884,7 +2874,7 @@ a.nav-link {
         min-height: 170vh;
         width: 100%;
         position: relative;
-        top: 650px;
+        top: 450px;
         scroll-margin-bottom: 0.5em;
     }
 
@@ -3580,7 +3570,7 @@ a.nav-link {
 }
 
 .carouselNew {
-    border: 2px double #de005c;
+    /* border: 2px double #de005c; */
     height: 370px;
 }
 
@@ -3616,7 +3606,7 @@ a.nav-link {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 14vw);
-    grid-gap: 1px;
+    grid-gap: 5px;
 }
 
 #gallery img {
@@ -3668,13 +3658,6 @@ a.nav-link {
 
 
 @media (min-width: 360px) {
-    #POSM {
-        z-index: 3;
-        min-height: 100vh;
-        width: 100%;
-        scroll-margin-bottom: 0.5em;
-    }
-
     .container-caro {
         position: absolute;
         top: 145px;
@@ -3682,30 +3665,30 @@ a.nav-link {
         width: 90%;
         margin: 10px auto;
     }
-
+    
     .carouselNew {
-        border: 2px double #de005c;
-        height: 410px;
+        /* border: 2px double #de005c; */
+        height: 370px;
     }
-
+    
     .sliderNew {
         height: 100%;
         display: flex;
         /* parametr odpowiedzialny za wyswietlanie sekcji */
         width: 400%
     }
-
+    
     .sliderNew section {
         flex-basis: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-
+    
     }
-
+    
     .galleryImg {
         max-width: 100%;
-
+    
         position: relative;
         transition: transform 250ms;
         -webkit-transition: transform 250ms;
@@ -3713,16 +3696,23 @@ a.nav-link {
         -ms-transition: transform 250ms;
         -o-transition: transform 250ms;
         cursor: pointer;
-
+    
     }
-
+    
     #gallery {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(7, 15vw);
-        grid-gap: 1px;
+        grid-template-rows: repeat(5, 14vw);
+        grid-gap: 5px;
     }
-
+    
+    #gallery img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    
     .galleryImg:hover {
         border: 1px solid #ffffff;
         padding: 3px;
@@ -3732,7 +3722,7 @@ a.nav-link {
         -ms-transform: translateY(-5px);
         -o-transform: translateY(-5px);
     }
-
+    
     #popup {
         z-index: 5;
         position: fixed;
@@ -3757,7 +3747,7 @@ a.nav-link {
         -ms-transition: 650ms transform;
         -o-transition: 650ms transform;
     }
-
+    
     #selectedImage {
         max-height: 100%;
         border: 10px solid whitesmoke;
@@ -3770,44 +3760,37 @@ a.nav-link {
 
 
 @media (min-width: 576px) {
-    #POSM {
-        z-index: 3;
-        min-height: 140vh;
-        width: 100%;
-        scroll-margin-bottom: 0.5em;
-    }
-
     .container-caro {
         position: absolute;
         top: 145px;
-        left: 30px;
+        left: 25px;
         width: 90%;
         margin: 10px auto;
     }
-
+    
     .carouselNew {
-        border: 2px double #de005c;
-        height: 640px;
+        /* border: 2px double #de005c; */
+        height: 370px;
     }
-
+    
     .sliderNew {
         height: 100%;
         display: flex;
         /* parametr odpowiedzialny za wyswietlanie sekcji */
         width: 400%
     }
-
+    
     .sliderNew section {
         flex-basis: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-
+    
     }
-
+    
     .galleryImg {
         max-width: 100%;
-
+    
         position: relative;
         transition: transform 250ms;
         -webkit-transition: transform 250ms;
@@ -3815,16 +3798,23 @@ a.nav-link {
         -ms-transition: transform 250ms;
         -o-transition: transform 250ms;
         cursor: pointer;
-
+    
     }
-
+    
     #gallery {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(7, 15vw);
-        grid-gap: 1px;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(5, 9vw);
+        grid-gap: 5px;
     }
-
+    
+    #gallery img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    
     .galleryImg:hover {
         border: 1px solid #ffffff;
         padding: 3px;
@@ -3834,7 +3824,7 @@ a.nav-link {
         -ms-transform: translateY(-5px);
         -o-transform: translateY(-5px);
     }
-
+    
     #popup {
         z-index: 5;
         position: fixed;
@@ -3859,7 +3849,7 @@ a.nav-link {
         -ms-transition: 650ms transform;
         -o-transition: 650ms transform;
     }
-
+    
     #selectedImage {
         max-height: 100%;
         border: 10px solid whitesmoke;
@@ -3883,7 +3873,7 @@ a.nav-link {
     }
 
     .carouselNew {
-        border: 2px double #de005c;
+        /* border: 2px double #de005c; */
         height: 880px;
     }
 
@@ -3919,7 +3909,7 @@ a.nav-link {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(6, 15vw);
-        grid-gap: 1px;
+        grid-gap: 5px;
     }
 
     .galleryImg:hover {
@@ -3981,7 +3971,7 @@ a.nav-link {
     }
 
     .carouselNew {
-        border: 2px double #de005c;
+        /* border: 2px double #de005c; */
         height: 1140px;
     }
 
@@ -4017,7 +4007,7 @@ a.nav-link {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(6, 15vw);
-        grid-gap: 1px;
+        grid-gap: 5px;
     }
 
     .galleryImg:hover {
@@ -4078,7 +4068,7 @@ a.nav-link {
     }
 
     .carouselNew {
-        border: 2px double #de005c;
+        /* border: 2px double #de005c; */
         height: 400px;
     }
 
@@ -4114,7 +4104,7 @@ a.nav-link {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(6, 5vw);
-        grid-gap: 1px;
+        grid-gap: 5px;
     }
 
     .galleryImg:hover {
@@ -4177,7 +4167,7 @@ a.nav-link {
     }
 
     .carouselNew {
-        border: 2px double #de005c;
+        /* border: 2px double #de005c; */
         height: 820px;
     }
 
@@ -4213,7 +4203,7 @@ a.nav-link {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(4, 6vw);
-        grid-gap: 1px;
+        grid-gap: 5px;
     }
 
     .galleryImg:hover {
@@ -4276,7 +4266,7 @@ a.nav-link {
     }
 
     .carouselNew {
-        border: 2px double #de005c;
+        /* border: 2px double #de005c; */
         height: 750px;
     }
 
@@ -4313,7 +4303,7 @@ a.nav-link {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(4, 5vw);
-        grid-gap: 1px;
+        grid-gap: 5px;
     }
 
     .galleryImg:hover {
