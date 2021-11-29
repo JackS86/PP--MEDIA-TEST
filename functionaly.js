@@ -5,23 +5,7 @@ menuIcon.addEventListener("click", () => {
     navbar.classList.toggle("change");
 });
 
-let controller = new ScrollMagic.Controller();
-let timeline = new TimelineMax();
 
-timeline
-    .to(".title-one", 3, { y: -240 })
-    .to(".title-main", 3, { y: 360 }, "-=3")
-    .to(".title-two", 3, { y: 480 }, "-=3")
-    .to("#experience", 3, { top: "50%" }, "-=3");
-
-let scene = new ScrollMagic.Scene({
-    triggerElement: "header",
-    duration: "90%",
-    triggerHook: 0,
-})
-    .setTween(timeline)
-    .setPin("header")
-    .addTo(controller);
 
 const firstItem = document.querySelector(".first");
 const secondItem = document.querySelector(".second");
@@ -155,25 +139,17 @@ fade.forEach(fadeOne => {
 const hoverAdresPoland = document.querySelector(".pin-p");
 const hoverAdresGermany = document.querySelector(".pin-g");
 
-const adresGermany = document.querySelector(".adgermany");
-const adresPoland = document.querySelector(".adpoland");
 
 
-// hoverAdresGermany.addEventListener("mouseover", () => {
-//     adresGermany.style.display = "block";
-// });
 
-// hoverAdresGermany.addEventListener("mouseout", () => {
-//     adresGermany.style.display = "none";
-// });
+hoverAdresGermany.addEventListener("click", () => {
+    // hoverAdresGermany.classList.toggle = ("adgermany")
+    console.log("test");
+});
 
-// hoverAdresPoland.addEventListener("mouseover", () => {
-//     adresPoland.style.display = "block";
-// });
 
-// hoverAdresPoland.addEventListener("mouseout", () => {
-//     adresPoland.style.display = "none";
-// });
+
+
 
 
 const gallery = document.getElementById("gallery");
