@@ -2184,15 +2184,15 @@ a.nav-link {
 
     .germany {
         position: absolute;
-        right: 600px;
-        top: 390px;
+        right: 700px;
+        top: 480px;
         z-index: 2;
     }
 
     .poland {
         position: absolute;
-        right: 360px;
-        top: 350px;
+        right: 420px;
+        top: 430px;
         z-index: 2;
     }
 
