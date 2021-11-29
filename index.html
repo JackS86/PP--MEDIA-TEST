@@ -5,7 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styling.css" />
+    <!-- <link rel="stylesheet" href="styling.css" /> -->
+    <link rel="stylesheet" href="alternavive.css" />
+
     <link rel="stylesheet" href="https://use.typekit.net/wwc7bmv.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,7 +32,7 @@
             <div class="languages-wrapper">
                 <a href="#" language="polish" class="active">PL<span class="line-v"></span></a>
                 <a href="#" language="english">EN<span class="line-v"></span></a>
-                <!-- <a href="#" language="russian">RU<span class="line-v"></span></a> -->
+
                 <a href="#" language="deutsch">DE</a>
             </div>
         </div>
@@ -39,7 +41,7 @@
 
 
     <div class="containerH">
-        <nav class="navbar">
+        <div class="navbar">
             <div class="hamburger-menu">
                 <div class="lineh line-1"></div>
                 <div class="lineh line-2"></div>
@@ -48,36 +50,36 @@
 
 
 
-            <ul class="nav-list">
-                <li class="nav-item"><a class="nav-link" href="#experience">o nas</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#FRIENDS">zaufali nam</a></li>
-                <li class="nav-item"><a class="nav-link" href="#CONTACT">kontakt</a></li>
-                <li class="nav-item"><a class="nav-link" href="#POSM">POSM</a></li>
-                <li class="nav-item"><a class="nav-link" href="#KEY-VISUALS">key visuals</a></li>
-                <li class="nav-item"><a class="nav-link" href="#GADGETS">gadżety</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">www</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">packing</a></li>
-            </ul>
-        </nav>
+
+            <nav>
+
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#experience">o nas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#FRIENDS">zaufali nam</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#CONTACT">kontakt</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#POSM">POSM</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#KEY-VISUALS">key visuals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#GADGETS">gadżety</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">www</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">packing</a></li>
+                </ul>
+            </nav>
+        </div>
+
     </div>
 
 
+    <section class="whiteboard">
+        <img src="images/titles one.png" class="title-one" id="titleOne">
+        <img src="images/slogan.png" class="title-main" id="titleMain">
+        <img src="images/titles two.png" class="title-two" id="titleTwo">
+    </section>
 
-
-
-
-
-
-    <header>
-        <img src="images/titles one.png" class="title-one">
-        <img src="images/slogan.png" class="title-main">
-        <img src="images/titles two.png" class="title-two">
-    </header>
     <main>
 
         <section id="experience">
-            <div class="our">
+            <!-- <div class="our">
                 <h1>OUR PINK<br />EXPERIENCE</h1>
                 <span class="line-decor"></span>
                 <span class="line-two"></span>
@@ -91,18 +93,19 @@
                         projektów.
                     </p>
                 </div>
+            </div>
 
+            <img src="images/mapa.jpg" alt="mapa" class="map" />
 
-                <img src="images/mapa.jpg" alt="mapa" class="map" />
-                <img src="images/pin.png" alt="" class="pin-g germany fade-in" />
-                <img src="images/pin.png" alt="" class="pin-p poland fade-in" />
-                <img src="images/adres1.png" alt="" class="adgermany fade-in hover" />
-                <img src="images/adres2.png" alt="" class="adpoland fade-in hover" />
+            <img src="images/pin.png" alt="" class="pin-g germany fade-in" />
+            <img src="images/pin.png" alt="" class="pin-p poland fade-in" />
+            <img src="images/adres1.png" alt="" class="adgermany fade-in hover" />
+            <img src="images/adres2.png" alt="" class="adpoland fade-in hover" /> -->
         </section>
 
 
 
-        <section id="skills">
+        <!-- <section id="skills">
             <div class="our">
                 <h1>OUR PINK<br />SKILLS</h1>
                 <span class="line-decor"></span>
@@ -208,7 +211,7 @@
                     <div class="sliderNew">
                         <section>
                             <div class="gallery-container">
-                                <!-- <-- zawartość  -->
+                               
 
                                 <div id="gallery"></div>
                             </div>
@@ -235,30 +238,26 @@
                 <span class="line-two"></span>
 
             </div>
-            <div class="container-caro">
-                <div class="carouselNew">
-                    <div class="sliderNew">
+            <div class="container-caro-visuals">
+                <div class="carouselNewVis">
+                    <div class="sliderNewV">
                         <section>
-                            <div class="gallery-container">
-                                <!-- <-- zawartość  -->
+                            <div class="gallery-container-visuals">
+                             
 
-                                <div id="gallery"></div>
+                                <div id="gallery-visuals"></div>
                             </div>
 
-                            <div id="popup">
-                                <img src="" alt="" id="selectedImage">
+                            <div id="popupVisual">
+                                <img src="" alt="" id="selectedImageV">
                             </div>
+
                         </section>
 
                         <section>content for section1</section>
                         <section>content for section1</section>
                         <section>content for section1</section>
-                    </div>
-                </div>
-            </div>
-
-
-        </section>
+                        < </section>
 
 
 
@@ -270,130 +269,164 @@
 
 
 
-        <section id="GADGETS">
-            <div class="our">
-                <h1>OUR PINK<br />GADGETS</h1>
-                <span class="line-decor"></span>
-                <span class="line-two"></span>
-            </div>
-            <div class="gadget-portfolio">
+                            <section id="GADGETS">
+                                <div class="our">
+                                    <h1>OUR PINK<br />GADGETS</h1>
+                                    <span class="line-decor"></span>
+                                    <span class="line-two"></span>
+                                </div>
+                                <div class="container-caro-gadgets">
+                                    <div class="carouselNewGadget">
+                                        <div class="sliderNewGa">
+                                            <section>
+                                                <div class="gallery-container-gadgets">
+                                                   
 
-                <img src="images/portfolio/gadgets/Grzeėki-podkąadka.jpg" alt="" class="key g1" />
+                                                    <div id="gallery-gadgets"></div>
+                                                </div>
 
-                <img src="images/portfolio/gadgets/warta-kubek.jpg" alt="" class="key g2" />
+                                                <div id="popupGadgets">
+                                                    <img src="" alt="" id="selectedImageGadgets">
+                                                </div>
+                                            </section>
 
-                <img src="images/portfolio/gadgets/Lavazza-pudelko.jpg" alt="" class="key g3" />
-                <img src="images/portfolio/gadgets/warta-pudełko.jpg" alt="" class="key g4" />
-
-            </div>
-        </section>
-
-
-        <section id="FRIENDS">
-            <div class="our">
-                <h1>OUR PINK<br />FRIENDS</h1>
-                <span class="line-decor"></span>
-                <span class="line-two"></span>
-            </div>
-
-            <div class="friends-brands">
-
-                <ul>
-                    <li>
-                        <img src="./images/friends/1.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/10.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/11.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/12.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/14.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/3.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/5.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/7.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/8.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/9.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/bell.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/k1.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/k2.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/k3.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/k4.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/k5.jpg">
-                    </li>
-                    <li>
-                        <img src="./images/friends/pepsi.jpg">
-                    </li>
-                </ul>
-
-        </section>
-
-        <section id="CONTACT">
-            <div class="our">
-                <h1>CONTACT</h1>
-                <!-- <span class="line-decorW"></span>
-                <span class="line-twoW"></span> -->
-            </div>
-            <div class="special-decor-block">
-
-                <span class="special-line"></span>
-                <span class="special-decor">&#8221;</span>
-                <span class="special-line"></span>
-            </div>
-
-            <p class="adres">
-                <span>
-                    PINK PEPPER MEDIA Sp. z o. o. ul. Łowcza 24, 02-955 Warszawa
-                </span>
-                marketing@pinkpeppermedia.pl www.pinkpeppermedia.pl
-            </p>
-
-            <div class="special-decor-block">
-
-                <span class="special-line"></span>
-                <span class="special-decor">&#8221;</span>
-                <span class="special-line"></span>
-            </div>
+                                            <section>content for section1</section>
+                                            <section>content for section1</section>
+                                            <section>content for section1</section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
 
 
-            <footer>
-                <p class="copy">
-                    Design by Pink Pepper Media &copy; 2021
-                </p>
-                <a href="#experience"><i class="fas fa-angle-double-up"></i></a>
+                            <section id="FRIENDS">
+                                <div class="our">
+                                    <h1>OUR PINK<br />FRIENDS</h1>
+                                    <span class="line-decor"></span>
+                                    <span class="line-two"></span>
+                                </div>
 
-            </footer>
+                                <div class="friends-brands">
+
+                                    <ul>
+                                        <li>
+                                            <img src="./images/friends/1.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/10.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/11.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/12.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/14.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/3.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/5.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/7.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/8.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/9.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/bell.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/k1.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/k2.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/k3.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/k4.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/k5.jpg">
+                                        </li>
+                                        <li>
+                                            <img src="./images/friends/pepsi.jpg">
+                                        </li>
+                                    </ul>
+
+                            </section>
+
+                            <section id="CONTACT">
+                                <div class="our">
+                                    <h1>OUR PINK<br />CONTACT</h1>
+                                    
+                                    <div class="contact-rubric">
+                                        <p class="titlechangepink titleD">Jesteś zainteresowany współpracą?</p>
+                                        <span class="line-acapit"></span>
+                                        <p class="textD">
+                                            Z przyjemnością o tym porozmawiamy.
+                                        </p>
+
+                                        <p class="textAdres">
+                                            PINK PEPPER MEDIA Sp. z o. o. ul. Łowcza 24, 02-955 Warszawa
+                                            marketing@pinkpeppermedia.pl www.pinkpeppermedia.pl
+                                        </p>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="special-decor-block">
+
+                                    <span class="special-line"></span>
+                                    <span class="special-decor">&#8221;</span>
+                                    <span class="special-line"></span>
+                                </div>
+
+                                <form action="marketing@pinkpeppermedia.pl" method="POST">
+                                    <legend>
+                                        <input type="email" name value="Podaj swój email" required>
+                                        <input type="text" name="topic" name value="Podaj temat" required>
+                                        <textarea>Wpisz swoją wiadomość do nas</textarea>
+                                        <button class="pinkbtn" type="submit">Wyślij</button>
+                                    </legend>
+                                </form>
+
+
+                                <div class="special-decor-block">
+
+                                    <span class="special-line"></span>
+                                    <span class="special-decor">&#8221;</span>
+                                    <span class="special-line"></span>
+                                </div>
+                                <div class="decorationContentAdres">
+
+                                    <img src="/images/we pink you.png" class="wepink">
+
+                                </div>
+
+
+
+                                <footer>
+                                    <p class="copy">
+                                        Design by Pink Pepper Media &copy; 2021
+                                    </p>
+                                    <a href="#experience"><i class="fas fa-angle-double-up"></i></a>
+
+                                </footer>
 
 
 
 
-        </section>
+                            </section> -->
 
 
     </main>
@@ -414,11 +447,11 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    Snippet
+
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/BezierPlugin.min.js"></script>
 
-    <script src="./jq.js"></script>
+    <!-- <script src="./jq.js"></script> -->
 
     <script src="./functionaly.js"></script>
 

@@ -1,3 +1,27 @@
+const titleOne = document.querySelector("#titleOne");
+const titleMain = document.querySelector("#titleMain");
+const titleTwo = document.querySelector("#titleTwo");
+
+const sectionExperience = document.getElementById("experience");
+
+
+function move() {
+    const increment = window.scrollY
+
+    //titleOne up //
+   titleOne.style.bottom = 61 + increment * 0.10 + '%'
+   titleMain.style.bottom = 53 - increment * 0.12 + '%'
+   titleTwo.style.bottom = 46 - increment * 0.15 + '%'
+  
+   
+}
+
+window.addEventListener("scroll",move) 
+
+
+
+
+
 const menuIcon = document.querySelector(".hamburger-menu");
 const navbar = document.querySelector(".navbar");
 
@@ -181,4 +205,69 @@ popup.addEventListener("click", () => {
     popup.style.transform = `translateY(-100%)`;
     popup.src = "";
     popup.alt = "";
+})
+
+
+const galleryVis = document.getElementById("gallery-visuals");
+const popupVis = document.getElementById("popupVisual")
+const selectedImageVis = document.getElementById("selectedImageV");
+const imageIndexesVis = [1, 2, 3,];
+const selectedIndexVis = null;
+
+imageIndexesVis.forEach(i => {
+    const image = document.createElement('img');
+    image.src = `./images/visual-${i}.jpg`;
+    image.alt = `Portfolio KEY VISUALS ${i} by Pink Pepper Media`;
+    image.classList.add('galleryImgV');
+
+
+    image.addEventListener("click", () => {
+
+        popupVis.style.transform = `translateY(0)`;
+        selectedImageVis.src = `./images/visual-${i}.jpg`;
+        selectedImageVis.alt = `Portfolio KEY VISUALS ${i} by Pink Pepper Media`;
+    });
+
+
+
+    galleryVis.appendChild(image);
+});
+
+popupVis.addEventListener("click", () => {
+    popupVis.style.transform = `translateY(-100%)`;
+    popupVis.src = "";
+    popupVis.alt = "";
+})
+
+
+
+const galleryGadgets = document.getElementById("gallery-gadgets");
+const popupGadgets = document.getElementById("popupGadgets")
+const selectedImageGadget = document.getElementById("selectedImageGadgets");
+const imageIndexesGadget = [1, 2, 3,];
+const selectedIndexGadget = null;
+
+imageIndexesGadget.forEach(i => {
+    const image = document.createElement('img');
+    image.src = `./images/gadgets-${i}.jpg`;
+    image.alt = `Portfolio gadgets ${i} by Pink Pepper Media`;
+    image.classList.add('galleryImgGa');
+
+
+    image.addEventListener("click", () => {
+
+        popupVis.style.transform = `translateY(0)`;
+        selectedImageVis.src = `./images/gadgets-${i}.jpg`;
+        selectedImageVis.alt = `Portfolio gadgets ${i} by Pink Pepper Media`;
+    });
+
+
+
+    galleryGadgets.appendChild(image);
+});
+
+popupGadgets.addEventListener("click", () => {
+    popupGadgets.style.transform = `translateY(-100%)`;
+    popupGadgets.src = "";
+    popupGadgets.alt = "";
 })
