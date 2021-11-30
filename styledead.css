@@ -1221,7 +1221,13 @@ footer {
     font-weight: 500;
 }
 
+
+
+
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+    
 
     .nav-link {
         font-size: 1rem;
@@ -1245,6 +1251,15 @@ footer {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+    .languages-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    top: 1em;
+    left: 14em;
+    width: 40%;
+}
 
     .logo {
         width: 15%;
@@ -1410,7 +1425,7 @@ footer {
         position: relative;
         top: 10px;
     }
-}
+
 
 .carouselNewGadget {
     /* border: 2px double #de005c; */
@@ -1443,11 +1458,24 @@ footer {
     text-align: center;
     margin-left: 20px;
 }
-
+}
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+    .nav-link {
+        font-size: 1.2rem;
+        color: white;
+    }
+
+    .navigation {
+        position: fixed;
+        height: 50%;
+        top: 0px;
+    }
+
+
     .map {
         position: relative;
         width: 100%;
@@ -1550,8 +1578,19 @@ footer {
         justify-content: flex-start;
         position: fixed;
         top: 1em;
-        left: 40em;
+        left: 30em;
         width: 40%;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+        color: white;
+    }
+
+    .navigation {
+        position: fixed;
+        height: 80%;
+        top: 0px;
     }
 
 
@@ -1683,9 +1722,9 @@ footer {
         background-color: rgb(255, 255, 255);
         scroll-margin-top: 16.2em;
         position: relative;
-        top: 10px;
+        top: 70px;
     }
-}
+
 
 .carouselNewGadget {
     /* border: 2px double #de005c; */
@@ -1694,10 +1733,126 @@ footer {
 
 #gallery-gadgets {
     position: relative;
-    top: 180px;
+    top: 240px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 34vw);
     grid-gap: 5px;
 }
+#FRIENDS {
+    position: relative;
+    top: 30px;
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    scroll-margin-top: 5em;
+
+    -webkit-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+    -moz-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+    box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+}
+#CONTACT {
+    position: relative;
+    top: 30px;
+
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 2px;
+    scroll-margin-bottom: 1.8em;
+    -webkit-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+    -moz-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+    box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+
+
+}.pinkbtn {
+    background-color: var(--clr-secondary);
+    border: none;
+    padding: 10px;
+    font-family: var(--ff-paragraph);
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+    top: 0px;
+    left: 405px;
+}
+input {
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 90%;
+    margin-bottom: 15px;
+    font-family: var(--ff-paragraph);
+
+}
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+    .languages-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        position: fixed;
+        top: 1em;
+        left: 17em;
+        width: 40%;
+    }
+
+    a {
+        font-size: 1.5rem;
+        font-family: var(--ff-link-nav);
+        color: var(--clr-accent);
+        text-decoration: none;
+    }
+
+
+
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .logo {
+        width: 15%;
+        margin-top: 1.3em;
+        margin-left: 2.5em;
+    }
+
+    .languages-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        position: fixed;
+        top: 1em;
+        left: 34em;
+        width: 40%;
+    }
+    a {
+        font-size: 1.5rem;
+        font-family: var(--ff-link-nav);
+        color: var(--clr-accent);
+        text-decoration: none;
+    }
+
 }
