@@ -1,33 +1,87 @@
+const menuIcoN = document.querySelector(".hamburger");
+const navigatioN = document.querySelector(".navigation");
+
+menuIcoN.addEventListener("click", () => {
+    navigatioN.classList.toggle("change");
+});
+
+
+
+
 const titleOne = document.querySelector("#titleOne");
 const titleMain = document.querySelector("#titleMain");
 const titleTwo = document.querySelector("#titleTwo");
 
 const sectionExperience = document.getElementById("experience");
 
+// const titleOneLand = 41
 
-function move() {
-    const increment = window.scrollY
-
-    //titleOne up //
-   titleOne.style.bottom = 61 + increment * 0.10 + '%'
-   titleMain.style.bottom = 53 - increment * 0.12 + '%'
-   titleTwo.style.bottom = 46 - increment * 0.15 + '%'
-  
-   
-}
-
-window.addEventListener("scroll",move) 
+// titleOne.style.bottom = titleOneLand + "%";
 
 
+// function move() {
+//     const increment = window.scrollY
+
+//     //titleOne up //
+//     titleOne.style.bottom = 61 + increment * 0.10 + '%'
+//     titleMain.style.bottom = 53 - increment * 0.12 + '%'
+//     titleTwo.style.bottom = 46 - increment * 0.15 + '%'
+
+
+// }
+// window.addEventListener("scroll", move)
 
 
 
-const menuIcon = document.querySelector(".hamburger-menu");
-const navbar = document.querySelector(".navbar");
+// const mediaQuery = window.matchMedia('(min-device-width : 321px)')
 
-menuIcon.addEventListener("click", () => {
-    navbar.classList.toggle("change");
-});
+// if (mediaQuery.matches) {
+
+
+//     function move() {
+//         const increment = window.scrollY
+
+//         //titleOne up //
+//         titleOne.style.bottom = 61 + increment * 0.10 + '%'
+//         titleMain.style.bottom = 53 - increment * 0.12 + '%'
+//         titleTwo.style.bottom = 46 - increment * 0.15 + '%'
+
+
+//     }
+//     window.addEventListener("scroll", move)
+
+// }
+
+
+
+// const mediaQuery = window.matchMedia('(min-device-width : 481px)')
+
+
+// if (mediaQuery.matches) {
+
+
+
+//         titleOneLand = 41 + increment * 0.10 + '%'
+//         titleMain.style.bottom = 23 - increment * 0.12 + '%'
+//         titleTwo.style.bottom = 6 - increment * 0.15 + '%'
+
+
+//     }
+//     window.addEventListener("scroll", move)
+
+
+
+
+
+
+
+
+
+
+
+// window.addEventListener("resize",checkMediaQuery);
+
+
 
 
 
