@@ -1227,7 +1227,7 @@ footer {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
-    
+
 
     .nav-link {
         font-size: 1rem;
@@ -1253,13 +1253,13 @@ footer {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
 
     .languages-wrapper {
-    display: flex;
-    justify-content: flex-start;
-    position: fixed;
-    top: 1em;
-    left: 14em;
-    width: 40%;
-}
+        display: flex;
+        justify-content: flex-start;
+        position: fixed;
+        top: 1em;
+        left: 14em;
+        width: 40%;
+    }
 
     .logo {
         width: 15%;
@@ -1427,38 +1427,39 @@ footer {
     }
 
 
-.carouselNewGadget {
-    /* border: 2px double #de005c; */
-    height: 250px;
+    .carouselNewGadget {
+        /* border: 2px double #de005c; */
+        height: 250px;
+    }
+
+    #gallery-gadgets {
+        position: relative;
+        top: 180px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 34vw);
+        grid-gap: 5px;
+    }
+
+    .pinkbtn {
+        position: relative;
+        top: 0px;
+        left: 325px;
+    }
+
+    .wepink {
+        width: 50%;
+        margin-left: 120px;
+        padding: 10px;
+
+    }
+
+    .copy {
+        text-align: center;
+        margin-left: 20px;
+    }
 }
 
-#gallery-gadgets {
-    position: relative;
-    top: 180px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 34vw);
-    grid-gap: 5px;
-}
-
-.pinkbtn {
-    position: relative;
-    top: 0px;
-    left: 325px;
-}
-
-.wepink {
-    width: 50%;
-    margin-left: 120px;
-    padding: 10px;
-
-}
-
-.copy {
-    text-align: center;
-    margin-left: 20px;
-}
-}
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
 
 /* Portrait */
@@ -1726,97 +1727,98 @@ footer {
     }
 
 
-.carouselNewGadget {
-    /* border: 2px double #de005c; */
-    height: 250px;
-}
+    .carouselNewGadget {
+        /* border: 2px double #de005c; */
+        height: 250px;
+    }
 
-#gallery-gadgets {
-    position: relative;
-    top: 240px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 34vw);
-    grid-gap: 5px;
-}
-#FRIENDS {
-    position: relative;
-    top: 30px;
-    background-color: rgb(255, 255, 255);
-    min-height: 100vh;
-    scroll-margin-top: 5em;
+    #gallery-gadgets {
+        position: relative;
+        top: 240px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 34vw);
+        grid-gap: 5px;
+    }
 
-    -webkit-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
-    -moz-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
-    box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
-}
-#CONTACT {
-    position: relative;
-    top: 30px;
+    #FRIENDS {
+        position: relative;
+        top: 30px;
+        background-color: rgb(255, 255, 255);
+        min-height: 100vh;
+        scroll-margin-top: 5em;
 
-    background-color: rgb(255, 255, 255);
+        -webkit-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+        -moz-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+        box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+    }
 
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 2px;
-    scroll-margin-bottom: 1.8em;
-    -webkit-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
-    -moz-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
-    box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+    #CONTACT {
+        position: relative;
+        top: 30px;
+
+        background-color: rgb(255, 255, 255);
+
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 2px;
+        scroll-margin-bottom: 1.8em;
+        -webkit-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+        -moz-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+        box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
 
 
-}.pinkbtn {
-    background-color: var(--clr-secondary);
-    border: none;
-    padding: 10px;
-    font-family: var(--ff-paragraph);
-    text-transform: uppercase;
-    color: white;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    position: relative;
-    top: 0px;
-    left: 405px;
-}
-input {
-    background-color: rgb(233, 233, 233);
-    border-radius: 5px;
-    border: none;
-    padding: 10px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    width: 90%;
-    margin-bottom: 15px;
-    font-family: var(--ff-paragraph);
+    }
 
-}
+    .pinkbtn {
+        background-color: var(--clr-secondary);
+        border: none;
+        padding: 10px;
+        font-family: var(--ff-paragraph);
+        text-transform: uppercase;
+        color: white;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        position: relative;
+        top: 0px;
+        left: 405px;
+    }
+
+    input {
+        background-color: rgb(233, 233, 233);
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        width: 90%;
+        margin-bottom: 15px;
+        font-family: var(--ff-paragraph);
+
+    }
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
 /* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
     #titleOne {
         width: 60%;
         bottom: 46em;
     }
-    
+
     #titleMain {
         width: 60%;
         bottom: 40em;
     }
-    
+
     #titleTwo {
         width: 60%;
         bottom: 35em;
@@ -1852,70 +1854,73 @@ input {
         -moz-border-radius: 0 0 0 5%;
         -ms-border-radius: 0 0 0 5%;
         -o-border-radius: 0 0 0 5%;
+    }
+
+    map {
+        position: relative;
+        width: 100%;
+        left: 0px;
+    }
+
+    .germany {
+        position: absolute;
+        left: 152px;
+        top: 447px;
+        z-index: 2;
+    }
+
+    .poland {
+        position: absolute;
+        left: 230px;
+        top: 430px;
+        z-index: 2;
+    }
+
+    .adpoland {
+        display: none;
+        width: 30%;
+        z-index: 3;
+        position: absolute;
+        top: 400px;
+        left: 230px;
+    }
+
+    .adgermany {
+        display: none;
+        width: 30%;
+        z-index: 3;
+        position: absolute;
+        top: 420px;
+        left: 50px;
+    }
+
+    #gallery-gadgets {
+        position: relative;
+        top: 0px;
+        margin-bottom: 120px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 34vw);
+        grid-gap: 5px;
+    }
+
+    .pinkbtn {
+        position: relative;
+        top: 0px;
+        left: 235px;
+    }
+
+    .copy {
+        text-align: center;
+        margin-left: 10px;
+    }
 }
 
-map {
-    position: relative;
-    width: 100%;
-    left: 0px;
-}
-
-.germany {
-    position: absolute;
-    left: 152px;
-    top: 447px;
-    z-index: 2;
-}
-
-.poland {
-    position: absolute;
-    left: 230px;
-    top: 430px;
-    z-index: 2;
-}
-
-.adpoland {
-    display: none;
-    width: 30%;
-    z-index: 3;
-    position: absolute;
-    top: 400px;
-    left: 230px;
-}
-
-.adgermany {
-    display: none;
-    width: 30%;
-    z-index: 3;
-    position: absolute;
-    top: 420px;
-    left: 50px;
-}
-#gallery-gadgets {
-    position: relative;
-    top: 0px;
-    margin-bottom:120px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 34vw);
-    grid-gap: 5px;
-}
-
-.pinkbtn {
-    position: relative;
-    top: 0px;
-    left: 235px;
-}
 
 
-}
 
 /* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
     .logo {
         width: 15%;
         margin-top: 1.3em;
@@ -1930,24 +1935,481 @@ map {
         left: 45em;
         width: 40%;
     }
+
     a {
         font-size: 1.5rem;
         font-family: var(--ff-link-nav);
         color: var(--clr-accent);
         text-decoration: none;
     }
+
     #titleOne {
-        width: 60%;
-        bottom: 46em;
+        width: 50%;
+        bottom: 21em;
     }
-    
+
     #titleMain {
-        width: 60%;
-        bottom: 40em;
+        width: 50%;
+        bottom: 13em;
     }
-    
+
     #titleTwo {
-        width: 60%;
-        bottom: 35em;
+        width: 50%;
+        bottom: 6em;
+    }
+
+    .nav-link {
+        font-size: 1.4rem;
+        color: white;
+    }
+
+    .navigation {
+        position: fixed;
+        height: 100%;
+        top: 0px;
+        border-radius: 0 0 0 5%;
+        -webkit-border-radius: 0 0 0 5%;
+        -moz-border-radius: 0 0 0 5%;
+        -ms-border-radius: 0 0 0 5%;
+        -o-border-radius: 0 0 0 5%;
+    }
+
+    .germany {
+        position: absolute;
+        left: 282px;
+        top: 437px;
+        z-index: 2;
+    }
+
+    .poland {
+        position: absolute;
+        left: 420px;
+        top: 410px;
+        z-index: 2;
+    }
+
+    .adpoland {
+        display: none;
+        width: 30%;
+        z-index: 3;
+        position: absolute;
+        top: 400px;
+        left: 430px;
+    }
+
+    .adgermany {
+        display: none;
+        width: 30%;
+        z-index: 3;
+        position: absolute;
+        top: 420px;
+        left: 90px;
+    }
+
+    .boxy-menu {
+        z-index: 3;
+        position: absolute;
+        top: 3em;
+        left: 22em;
+        display: grid;
+        grid-template-columns: repeat(2, 65px);
+
+    }
+
+    #gallery {
+        position: relative;
+        bottom: 60px;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(3, 7vw);
+        grid-gap: 5px;
+
+    }
+
+    #KEY-VISUALS {
+        z-index: 3;
+        background-color: rgb(241, 181, 181);
+        scroll-margin-top: 1em;
+        -webkit-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
+        -moz-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
+        box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
+        position: relative;
+        top: 70px;
+    }
+
+    #gallery-visuals {
+        position: relative;
+        top: 172px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 40vw);
+        grid-gap: 5px;
+    }
+
+    #GADGETS {
+        background-color: rgb(255, 255, 255);
+        scroll-margin-top: 16.2em;
+        position: relative;
+        top: 70px;
+    }
+
+    #gallery-gadgets {
+        position: relative;
+        top: 280px;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 34vw);
+        grid-gap: 5px;
+    }
+
+    #FRIENDS {
+        position: relative;
+        top: 120px;
+        margin-bottom: 120px;
+        background-color: rgb(255, 255, 255);
+        min-height: 100vh;
+        scroll-margin-top: 5em;
+
+        -webkit-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+        -moz-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+        box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+
+
+
+
+    }
+
+
+
+    #CONTACT {
+        position: relative;
+        top: 30px;
+
+        background-color: rgb(255, 255, 255);
+
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 2px;
+        scroll-margin-bottom: 1.8em;
+        -webkit-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+        -moz-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+        box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+
+
+    }
+
+    .pinkbtn {
+        background-color: var(--clr-secondary);
+        border: none;
+        padding: 10px;
+        font-family: var(--ff-paragraph);
+        text-transform: uppercase;
+        color: white;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        position: relative;
+
+        left: 495px;
+
+
+    }
+
+    .wepink {
+        width: 50%;
+        margin-left: 160px;
+        padding: 10px;
+    }
+
+    .copy {
+        text-align: center;
+        margin-left: 30px;
     }
 }
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+
+    .nav-link {
+        font-size: 2rem;
+        color: white;
+    }
+
+    .navigation {
+        position: fixed;
+        height: 100%;
+        top: 0px;
+        border-radius: 0 0 0 5%;
+        -webkit-border-radius: 0 0 0 5%;
+        -moz-border-radius: 0 0 0 5%;
+        -ms-border-radius: 0 0 0 5%;
+        -o-border-radius: 0 0 0 5%;
+    }
+
+    .germany {
+        position: absolute;
+        left:179px;
+        top: 477px;
+        z-index: 2;
+    }
+
+    .poland {
+        position: absolute;
+        left: 260px;
+        top: 460px;
+        z-index: 2;
+    }
+
+    #gallery {
+        position: relative;
+        bottom: 210px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 9vw);
+        grid-gap: 5px;
+
+    }
+
+    legend {
+        margin-left: 30px;
+    }
+    
+    .pinkbtn {
+        background-color: var(--clr-secondary);
+        border: none;
+        padding: 10px;
+        font-family: var(--ff-paragraph);
+        text-transform: uppercase;
+        color: white;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        position: relative;
+
+        left: 245px;
+
+
+    }
+
+    .wepink {
+        width: 50%;
+        margin-left: 90px;
+        padding: 10px;
+    }
+
+    .copy {
+        text-align: center;
+        margin-left: 10px;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    .logo {
+        width: 15%;
+        margin-top: 1.3em;
+        margin-left: 2.5em;
+    }
+
+    .line-pink {
+        position: absolute;
+        top: 12px;
+        width: 130px;
+        margin-right: 0.4em;
+    } 
+
+    .languages-wrapper {
+        position: fixed;
+        top: 0.5em;
+        left: 49em;
+        width: 40%;
+    }
+
+    a {
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        font-size: 2rem;
+        color: white;
+    }
+
+    .navigation {
+        position: fixed;
+        height: 100%;
+        top: 0px;
+        border-radius: 0 0 0 5%;
+        -webkit-border-radius: 0 0 0 5%;
+        -moz-border-radius: 0 0 0 5%;
+        -ms-border-radius: 0 0 0 5%;
+        -o-border-radius: 0 0 0 5%;
+    }
+
+    #titleOne {
+        width: 50%;
+        bottom: 22em;
+    }
+
+    #titleMain {
+        width: 50%;
+        bottom: 13em;
+    }
+
+    #titleTwo {
+        width: 50%;
+        bottom: 6em;
+    }
+
+    .line-two {
+        position: relative;
+        bottom: 1.5em;
+        margin-bottom: 2em;
+        display: block;
+        border-bottom: 0.4em solid #de005c;
+        width: 90%;
+    }
+
+    .germany {
+        position: absolute;
+        left: 310px;
+        top: 459px;
+        z-index: 2;
+    }
+
+    .poland {
+        position: absolute;
+        left: 460px;
+        top: 430px;
+        z-index: 2;
+    }
+
+    .adpoland {
+        display: none;
+        width: 30%;
+        z-index: 3;
+        position: absolute;
+        top: 400px;
+        left: 430px;
+    }
+
+    .adgermany {
+        display: none;
+        width: 30%;
+        z-index: 3;
+        position: absolute;
+        top: 420px;
+        left: 90px;
+    }
+    .boxy-menu {
+        z-index: 3;
+        position: absolute;
+        top: 7em;
+        left: 12em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #gallery {
+        position: relative;
+        bottom: 60px;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(3, 7vw);
+        grid-gap: 5px;
+
+    }
+
+    #KEY-VISUALS {
+        position: relative;
+        top: 70px;
+    }
+    
+    #gallery-visuals {
+        position: relative;
+        top: 230px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 40vw);
+        grid-gap: 5px;
+    }
+    #GADGETS {
+        position: relative;
+        top: 70px;
+    }
+
+    #gallery-gadgets {
+        position: relative;
+        top: 320px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 34vw);
+        grid-gap: 5px;
+    }
+
+    #FRIENDS {
+        position: relative;
+        top: 80px;
+        background-color: rgb(255, 255, 255);
+        scroll-margin-top: 5em;
+    
+        -webkit-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+        -moz-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+        box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+    }
+    
+    #CONTACT {
+        position: relative;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 2px;
+        scroll-margin-bottom: 1.8em;
+        -webkit-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+        -moz-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+        box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
+    }
+    
+    legend {
+        margin-left: 50px;
+    }
+    
+    .pinkbtn {
+    position: relative;
+    top: 0px;
+    left: 495px;
+
+
+}
+.copy {
+    text-align: center;
+    margin-left: 40px;
+
+}
+
+.wepink {
+    width: 50%;
+    margin-left: 180px;
+    padding: 10px;
+
+}
+
+  }
+
