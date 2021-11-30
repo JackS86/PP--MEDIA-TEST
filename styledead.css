@@ -1807,6 +1807,21 @@ input {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
 
+    #titleOne {
+        width: 60%;
+        bottom: 46em;
+    }
+    
+    #titleMain {
+        width: 60%;
+        bottom: 40em;
+    }
+    
+    #titleTwo {
+        width: 60%;
+        bottom: 35em;
+    }
+
     .languages-wrapper {
         display: flex;
         justify-content: flex-start;
@@ -1823,7 +1838,74 @@ input {
         text-decoration: none;
     }
 
+    .nav-link {
+        font-size: 1.4rem;
+        color: white;
+    }
 
+    .navigation {
+        position: fixed;
+        height: 50%;
+        top: 0px;
+        border-radius: 0 0 0 5%;
+        -webkit-border-radius: 0 0 0 5%;
+        -moz-border-radius: 0 0 0 5%;
+        -ms-border-radius: 0 0 0 5%;
+        -o-border-radius: 0 0 0 5%;
+}
+
+map {
+    position: relative;
+    width: 100%;
+    left: 0px;
+}
+
+.germany {
+    position: absolute;
+    left: 152px;
+    top: 447px;
+    z-index: 2;
+}
+
+.poland {
+    position: absolute;
+    left: 230px;
+    top: 430px;
+    z-index: 2;
+}
+
+.adpoland {
+    display: none;
+    width: 30%;
+    z-index: 3;
+    position: absolute;
+    top: 400px;
+    left: 230px;
+}
+
+.adgermany {
+    display: none;
+    width: 30%;
+    z-index: 3;
+    position: absolute;
+    top: 420px;
+    left: 50px;
+}
+#gallery-gadgets {
+    position: relative;
+    top: 0px;
+    margin-bottom:120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 34vw);
+    grid-gap: 5px;
+}
+
+.pinkbtn {
+    position: relative;
+    top: 0px;
+    left: 235px;
+}
 
 
 }
@@ -1845,7 +1927,7 @@ input {
         justify-content: flex-start;
         position: fixed;
         top: 1em;
-        left: 34em;
+        left: 45em;
         width: 40%;
     }
     a {
@@ -1854,5 +1936,18 @@ input {
         color: var(--clr-accent);
         text-decoration: none;
     }
-
+    #titleOne {
+        width: 60%;
+        bottom: 46em;
+    }
+    
+    #titleMain {
+        width: 60%;
+        bottom: 40em;
+    }
+    
+    #titleTwo {
+        width: 60%;
+        bottom: 35em;
+    }
 }
