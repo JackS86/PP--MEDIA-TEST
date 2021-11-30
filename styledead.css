@@ -97,7 +97,7 @@ a.active {
 
 #top-bar {
     position: fixed;
-    z-index: 5;
+    z-index: 8;
     background-color: rgb(255, 255, 255);
     width: 100%;
     -webkit-box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
@@ -105,7 +105,6 @@ a.active {
     box-shadow: -2px 1px 11px -9px rgba(148, 148, 148, 1);
     /* overflow: hidden; */
     height: 45px;
-    display: none;
 }
 
 .logo {
@@ -352,30 +351,32 @@ a.active {
     z-index: 2;
     width: 3em;
     height: 3em;
+    cursor: pointer;
 }
 
 .pin-p {
     z-index: 2;
     width: 3em;
     height: 3em;
+    cursor: pointer;
 }
 
 .germany {
     position: absolute;
     left: 135px;
-    top: 390px;
+    top: 430px;
     z-index: 2;
 }
 
 .poland {
     position: absolute;
     left: 195px;
-    top: 370px;
+    top: 410px;
     z-index: 2;
 }
 
 .adgermany {
-    display: block;
+    display: none;
     position: absolute;
     top: 400px;
     left: 40px;
@@ -385,11 +386,11 @@ a.active {
 }
 
 .adpoland {
-    display: block;
+    display: none;
     width: 30%;
     z-index: 3;
     position: absolute;
-    top: 340px;
+    top: 380px;
     left: 210px;
 }
 
@@ -743,7 +744,7 @@ a.active {
 
 .container-caro {
     position: relative;
-    top: 35px;
+    top: 5px;
     left: 0px;
     width: 90%;
     margin: 10px auto;
@@ -782,7 +783,7 @@ a.active {
 
 #gallery {
     position: relative;
-    bottom: 50px;
+    bottom: 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 14vw);
@@ -840,7 +841,7 @@ a.active {
 
 #KEY-VISUALS {
     z-index: 3;
-    background-color: rgb(248, 221, 221);
+    background-color: rgb(241, 181, 181);
     scroll-margin-top: 1em;
     -webkit-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
     -moz-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
@@ -894,7 +895,7 @@ a.active {
 
 #gallery-visuals {
     position: relative;
-    bottom: 30px;
+    bottom: 90px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 40vw);
@@ -962,7 +963,7 @@ a.active {
     /* border: 1px solid rgb(255, 255, 255); */
     /* z-index: 3; */
     position: relative;
-    top: 25px;
+    top: 5px;
     left: 0px;
     width: 90%;
     margin: 10px auto;
@@ -1003,6 +1004,8 @@ a.active {
 }
 
 #gallery-gadgets {
+    position: relative;
+    bottom: 60px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 34vw);
@@ -1096,7 +1099,7 @@ a.active {
 
 #CONTACT {
     background-color: rgb(255, 255, 255);
-    height: 100vh;
+   
     display: flex;
     flex-direction: column;
     margin: 0;

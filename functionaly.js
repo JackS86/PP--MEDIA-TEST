@@ -5,8 +5,18 @@ menuIcoN.addEventListener("click", () => {
     navigatioN.classList.toggle("change");
 });
 
+const pinG = document.querySelector(".pin-g");
+const pinP = document.querySelector(".pin-p");
+const adresGermany = document.querySelector(".adgermany");
+const adresPoland = document.querySelector(".adpoland");
 
+pinG.addEventListener("click", () => {
+    adresGermany.style.display ="block";
+});
 
+pinP.addEventListener("click", () => {
+    adresPoland.style.display ="block";
+});
 
 const titleOne = document.querySelector("#titleOne");
 const titleMain = document.querySelector("#titleMain");
