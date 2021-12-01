@@ -283,6 +283,7 @@ a.active {
     justify-content: center;
     flex-direction: column;
     scroll-margin-top: 5em;
+    margin-bottom: 150px;
 }
 
 .our {
@@ -341,37 +342,39 @@ a.active {
 
 
 .map {
-    position: relative;
+    position: absolute;
     width: 100%;
     left: 0px;
+    background-attachment: fixed;
+    margin-bottom: 250px;
 }
 
 .pin-g {
 
     z-index: 2;
-    width: 3em;
-    height: 3em;
+    width: 10%;
+    
     cursor: pointer;
 }
 
 .pin-p {
     z-index: 2;
-    width: 3em;
-    height: 3em;
+    width: 10%;
     cursor: pointer;
 }
 
 .germany {
     position: absolute;
     left: 135px;
-    top: 430px;
+    top: 475px;
     z-index: 2;
 }
 
 .poland {
     position: absolute;
+    background-attachment: fixed;
     left: 195px;
-    top: 410px;
+    top: 465px;
     z-index: 2;
 }
 
@@ -454,7 +457,7 @@ a.active {
 
 #skills {
     z-index: 5;
-    background-color: rgb(171, 253, 93);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     -webkit-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
     -moz-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
@@ -751,7 +754,7 @@ a.active {
 }
 
 .carouselNew {
-    border: 2px double #de005c;
+    /* border: 2px double #de005c; */
     height: 390px;
 }
 
@@ -841,7 +844,7 @@ a.active {
 
 #KEY-VISUALS {
     z-index: 3;
-    background-color: rgb(241, 181, 181);
+    background-color: rgb(255, 255, 255);
     scroll-margin-top: 1em;
     -webkit-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
     -moz-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
@@ -1234,19 +1237,7 @@ footer {
         color: white;
     }
 
-    .germany {
-        position: absolute;
-        left: 135px;
-        top: 390px;
-        z-index: 2;
-    }
-
-    .poland {
-        position: absolute;
-        left: 195px;
-        top: 380px;
-        z-index: 2;
-    }
+    
 
 }
 
@@ -1260,6 +1251,13 @@ footer {
         left: 14em;
         width: 40%;
     }
+
+    .map {
+        position: absolute;
+        width: 80%;
+        left: 40px;
+    }
+
 
     .logo {
         width: 15%;
@@ -1294,24 +1292,12 @@ footer {
     }
 
     .map {
-        position: relative;
+        position: absolute;
         width: 80%;
         left: 40px;
     }
 
-    .germany {
-        position: absolute;
-        left: 205px;
-        top: 375px;
-        z-index: 2;
-    }
-
-    .poland {
-        position: absolute;
-        left: 275px;
-        top: 360px;
-        z-index: 2;
-    }
+    
 
     .adpoland {
         display: none;
@@ -1386,7 +1372,7 @@ footer {
 
     #KEY-VISUALS {
         z-index: 3;
-        background-color: rgb(241, 181, 181);
+        background-color: rgb(255, 255, 255);
         scroll-margin-top: 1em;
         -webkit-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
         -moz-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
@@ -1478,24 +1464,12 @@ footer {
 
 
     .map {
-        position: relative;
+        position: absolute;
         width: 100%;
         left: 0px;
     }
 
-    .germany {
-        position: absolute;
-        left: 129px;
-        top: 407px;
-        z-index: 2;
-    }
-
-    .poland {
-        position: absolute;
-        left: 190px;
-        top: 400px;
-        z-index: 2;
-    }
+    
 
     .adpoland {
         display: none;
@@ -1611,24 +1585,12 @@ footer {
     }
 
     .map {
-        position: relative;
+        position: absolute;
         width: 80%;
         left: 40px;
     }
 
-    .germany {
-        position: absolute;
-        left: 235px;
-        top: 375px;
-        z-index: 2;
-    }
-
-    .poland {
-        position: absolute;
-        left: 325px;
-        top: 360px;
-        z-index: 2;
-    }
+    
 
     .adpoland {
         display: none;
@@ -1857,24 +1819,12 @@ footer {
     }
 
     map {
-        position: relative;
+        position: absolute;
         width: 100%;
         left: 0px;
     }
 
-    .germany {
-        position: absolute;
-        left: 152px;
-        top: 447px;
-        z-index: 2;
-    }
-
-    .poland {
-        position: absolute;
-        left: 230px;
-        top: 430px;
-        z-index: 2;
-    }
+    
 
     .adpoland {
         display: none;
@@ -1974,19 +1924,7 @@ footer {
         -o-border-radius: 0 0 0 5%;
     }
 
-    .germany {
-        position: absolute;
-        left: 282px;
-        top: 437px;
-        z-index: 2;
-    }
-
-    .poland {
-        position: absolute;
-        left: 420px;
-        top: 410px;
-        z-index: 2;
-    }
+    
 
     .adpoland {
         display: none;
@@ -2028,7 +1966,7 @@ footer {
 
     #KEY-VISUALS {
         z-index: 3;
-        background-color: rgb(241, 181, 181);
+        background-color: rgb(255, 255, 255);
         scroll-margin-top: 1em;
         -webkit-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
         -moz-box-shadow: 2px -10px 17px -20px rgba(66, 68, 90, 1);
@@ -2152,19 +2090,7 @@ footer {
         -o-border-radius: 0 0 0 5%;
     }
 
-    .germany {
-        position: absolute;
-        left: 179px;
-        top: 477px;
-        z-index: 2;
-    }
-
-    .poland {
-        position: absolute;
-        left: 260px;
-        top: 460px;
-        z-index: 2;
-    }
+    
 
     #gallery {
         position: relative;
@@ -2278,19 +2204,7 @@ footer {
         width: 90%;
     }
 
-    .germany {
-        position: absolute;
-        left: 310px;
-        top: 459px;
-        z-index: 2;
-    }
-
-    .poland {
-        position: absolute;
-        left: 460px;
-        top: 430px;
-        z-index: 2;
-    }
+    
 
     .adpoland {
         display: none;
@@ -2446,19 +2360,7 @@ footer {
         -o-border-radius: 0 0 0 5%;
     }
 
-    .germany {
-        position: absolute;
-        left: 160px;
-        top: 519px;
-        z-index: 2;
-    }
-
-    .poland {
-        position: absolute;
-        left: 230px;
-        top: 510px;
-        z-index: 2;
-    }
+    
 
     .adpoland {
         display: none;
@@ -2626,19 +2528,7 @@ footer {
     cursor: pointer;
 }
 
-.germany {
-    position: absolute;
-    left: 330px;
-    top: 459px;
-    z-index: 2;
-}
 
-.poland {
-    position: absolute;
-    left: 500px;
-    top: 430px;
-    z-index: 2;
-}
 
 .adpoland {
     display: none;
@@ -2781,19 +2671,7 @@ legend {
         cursor: pointer;
     }
     
-    .germany {
-        position: absolute;
-        left: 170px;
-        top: 549px;
-        z-index: 2;
-    }
     
-    .poland {
-        position: absolute;
-        left: 250px;
-        top: 530px;
-        z-index: 2;
-    }
     
     .adpoland {
         display: none;
@@ -2938,19 +2816,7 @@ legend {
     cursor: pointer;
 }
 
-.germany {
-    position: absolute;
-    left: 370px;
-    top: 499px;
-    z-index: 2;
-}
 
-.poland {
-    position: absolute;
-    left: 550px;
-    top: 450px;
-    z-index: 2;
-}
 
 .adpoland {
     display: none;
@@ -3087,20 +2953,7 @@ legend {
   and (max-device-width: 844px)
   and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
 
-    .germany {
-        position: absolute;
-        left: 165px;
-        top: 540px;
-        z-index: 2;
-    }
     
-    .poland {
-        position: absolute;
-        left: 240px;
-        top: 520px;
-        z-index: 2;
-    }
-
   }
 
   @media only screen 
@@ -3108,19 +2961,7 @@ legend {
   and (max-device-width: 844px)
   and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
 
-    .germany {
-        position: absolute;
-        left: 350px;
-        top: 479px;
-        z-index: 2;
-    }
     
-    .poland {
-        position: absolute;
-        left:520px;
-        top: 440px;
-        z-index: 2;
-    }
 }
 
 
@@ -3176,19 +3017,7 @@ legend {
         width: 60%;
         bottom: 44em;
     }
-    .germany {
-        position: absolute;
-        left: 150px;
-        top: 510px;
-        z-index: 2;
-    }
     
-    .poland {
-        position: absolute;
-        left: 220px;
-        top: 490px;
-        z-index: 2;
-    }
 
     .adpoland {
         display: none;
@@ -3267,19 +3096,7 @@ legend {
         left: 53em;
         width: 40%;
     }
-    .germany {
-        position: absolute;
-        left: 310px;
-        top: 449px;
-        z-index: 2;
-    }
     
-    .poland {
-        position: absolute;
-        left:460px;
-        top: 410px;
-        z-index: 2;
-    }
 
     #gallery {
         position: relative;
@@ -3414,19 +3231,7 @@ legend {
         z-index: 2;
     }
 
-    .germany {
-        position: absolute;
-        left: 170px;
-        top: 570px;
-        z-index: 2;
-    }
     
-    .poland {
-        position: absolute;
-        left: 250px;
-        top: 550px;
-        z-index: 2;
-    }
 
     .adpoland {
         display: none;
@@ -3615,19 +3420,7 @@ legend {
     cursor: pointer;
 }
 
-.germany {
-    position: absolute;
-    left: 380px;
-    top: 499px;
-    z-index: 2;
-}
 
-.poland {
-    position: absolute;
-    left: 570px;
-    top: 470px;
-    z-index: 2;
-}
 
 .adpoland {
     display: none;
@@ -3759,7 +3552,20 @@ legend {
 
   
 
+/* ----------- iPad 1, 2, Mini and Air ----------- */
 
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+  
+        #top-bar {
+            position: fixed;
+            height: 95px;
+        }
+
+  }
 
 
 
