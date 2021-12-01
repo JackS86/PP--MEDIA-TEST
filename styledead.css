@@ -3765,3 +3765,14 @@ footer {
 
     }
 
+    @media screen and (min-width: 1920px) {
+        /* //For Projectors or Higher Resolution Screens (Full HD) */
+            
+        }
+
+
+        @media screen and (min-width: 3840px) {
+        /* //For 4K Displays (Ultra HD) */
+            
+        }
+
