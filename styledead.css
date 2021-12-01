@@ -3080,3 +3080,73 @@ legend {
 }
   }
 
+/* IPHONE 12/13 +  PRO MAX */
+
+@media only screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 844px)
+  and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+
+    .germany {
+        position: absolute;
+        left: 165px;
+        top: 540px;
+        z-index: 2;
+    }
+    
+    .poland {
+        position: absolute;
+        left: 240px;
+        top: 520px;
+        z-index: 2;
+    }
+
+  }
+
+  @media only screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 844px)
+  and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+
+    .germany {
+        position: absolute;
+        left: 350px;
+        top: 479px;
+        z-index: 2;
+    }
+    
+    .poland {
+        position: absolute;
+        left:520px;
+        top: 440px;
+        z-index: 2;
+    }
+}
+
+
+
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 760px)
+  and (-webkit-min-device-pixel-ratio: 4) and (orientation: portrait) {
+
+    a {
+        font-size: 1.3rem;
+        font-family: var(--ff-link-nav);
+        color: var(--clr-accent);
+        text-decoration: none;
+    }
+
+    .languages-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        position: fixed;
+        top: 1em;
+        left: 17em;
+        width: 40%;
+    }
+    
+    
+
+
+  }
