@@ -23,44 +23,28 @@ const titleMain = document.querySelector("#titleMain");
 const titleTwo = document.querySelector("#titleTwo");
 
 const sectionExperience = document.getElementById("experience");
-
-// const titleOneLand = 41
-
-// titleOne.style.bottom = titleOneLand + "%";
+const sectionSkills = document.getElementById("skills");
 
 
-// function move() {
-//     const increment = window.scrollY
+window.addEventListener("scroll", () => {
 
-//     //titleOne up //
-//     titleOne.style.bottom = 61 + increment * 0.10 + '%'
-//     titleMain.style.bottom = 53 - increment * 0.12 + '%'
-//     titleTwo.style.bottom = 46 - increment * 0.15 + '%'
+    
+    let scrolled = window.pageYOffset;
+    let rate = scrolled * -0.5;
+    let rateTwo = scrolled * 0.7;
+    let rateThree = scrolled * 0.5;
+    let rateFour = scrolled * -0.7;
 
+    titleOne.style.transform ='translate3d(0px,'+rate+'px, 0px)';
+    titleTwo.style.transform ='translate3d(0px,'+rateTwo+'px, 0px)';
+    titleMain.style.transform ='translate3d(0px,'+rateThree+'px, 0px)';
 
-// }
-// window.addEventListener("scroll", move)
-
-
-
-// const mediaQuery = window.matchMedia('(min-device-width : 321px)')
-
-// if (mediaQuery.matches) {
+    sectionExperience.style.transform = 'translate3d(0px,'+rateFour+'px, 0px)'
 
 
-//     function move() {
-//         const increment = window.scrollY
-
-//         //titleOne up //
-//         titleOne.style.bottom = 61 + increment * 0.10 + '%'
-//         titleMain.style.bottom = 53 - increment * 0.12 + '%'
-//         titleTwo.style.bottom = 46 - increment * 0.15 + '%'
+});
 
 
-//     }
-//     window.addEventListener("scroll", move)
-
-// }
 
 
 
