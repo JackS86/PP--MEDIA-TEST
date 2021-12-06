@@ -1,3 +1,7 @@
+
+
+
+
 const menuIcoN = document.querySelector(".hamburger");
 const navigatioN = document.querySelector(".navigation");
 
@@ -43,6 +47,7 @@ window.addEventListener("scroll", () => {
 
 
 });
+
 
 
 
